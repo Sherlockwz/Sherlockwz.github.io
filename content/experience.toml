@@ -6,6 +6,7 @@ description = "Research and industry experience related to large language models
 title = "Research Assistant"
 subtitle = "Guangdong Province Key Laboratory of Interdisciplinary Research and Application for Data Science · Zhuhai, China"
 date = "2024-06 - 2024-09"
+image = "/logos/irads-lab.png"
 content = """
 - Developed an incremental-learning model architecture based on a Learning to Edit long-term memory mechanism for dynamically updated medical data.
 - Assisted in building LLM agents for medical scenarios, integrating text, image, and structured medical-record data.
@@ -18,6 +19,7 @@ tags = ["LLM Agents", "Medical AI", "LangChain", "Spark"]
 title = "Data Analyst Manager"
 subtitle = "Vivo Mobile Communication Co., Ltd. · Shenzhen, China"
 date = "2023-06 - 2023-09"
+image = "/logos/vivo.png"
 content = """
 - Completed 20+ product analyses, generated 40+ insights and recommendations, and supported 10+ initiatives that cumulatively drove an increase of 110,000 daily active users.
 - Decomposed data targets for new product development and built dashboards accessed more than 800 times by colleagues.
@@ -27,13 +29,33 @@ content = """
 tags = ["Data Analysis", "SQL", "Python", "LLM Product"]
 
 [[items]]
-title = "Competition and Academic Honors"
-subtitle = "Selected awards"
-date = "2022 - 2024"
+title = "Kaggle LLM Prompt Recovery Competition"
+subtitle = "Bronze Medal"
+date = "2024"
+image = "/logos/kaggle.png"
 content = """
-- Bronze Medal, Kaggle LLM Prompt Recovery Competition, 2024.
-- Honorable Mention, Mathematical Contest in Modeling, 2023.
-- Honorable Mention, Mathematical Contest in Modeling, 2022.
+- Participated in a competition focused on recovering prompts used to transform given text.
+- Used a pre-trained causal language model to generate cue words for rewriting tasks and studied token handling effects.
+"""
+tags = ["Kaggle", "LLM Prompting", "Competition"]
+
+[[items]]
+title = "Mathematical Contest in Modeling"
+subtitle = "Honorable Mention"
+date = "2022 - 2023"
+image = "/logos/comap.svg"
+content = """
+- Received Honorable Mention in MCM 2023 for modeling New York Times game data and predicting development trends.
+- Received Honorable Mention in MCM 2022 for modeling asset price fluctuations and investment strategy.
+"""
+tags = ["MCM", "Mathematical Modeling", "Optimization"]
+
+[[items]]
+title = "Academic Honors"
+subtitle = "Hong Kong Baptist University"
+date = "2021 - 2025"
+image = "/logos/hkbu-wordmark.png"
+content = """
 - First Prize Scholarship, Hong Kong Baptist University.
 """
-tags = ["Kaggle", "MCM", "Scholarship"]
+tags = ["Scholarship", "HKBU"]

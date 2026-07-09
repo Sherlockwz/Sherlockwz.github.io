@@ -1,5 +1,7 @@
 ## Education
 
+![](/logos/hkust.png)
+
 **Hong Kong University of Science and Technology (Guangzhou), AI Thrust**  
 MPhil in Artificial Intelligence, *2025-09 - Present*  
 GPA: 4.00
@@ -24,10 +26,14 @@ GPA: 3.59; First Prize Scholarship
 
 ## Research and Work Experience
 
+![](/logos/irads-lab.png)
+
 **Research Assistant**, Guangdong Province Key Laboratory of Interdisciplinary Research and Application for Data Science, Zhuhai, China, *2024-06 - 2024-09*
 - Developed a model architecture supporting incremental learning based on the Learning to Edit long-term memory mechanism.
 - Assisted in building LLM agents for medical scenarios, integrating text, image, and structured medical-record data.
 - Used LangChain to design workflows for medical agents and combined Spark for distributed preprocessing and privacy-protection work.
+
+![](/logos/vivo.png)
 
 **Data Analyst Manager**, Vivo Mobile Communication Co., Ltd., Shenzhen, China, *2023-06 - 2023-09*
 - Completed 20+ analyses, generated 40+ insights and recommendations, and supported 10+ initiatives that cumulatively drove an increase of 110,000 daily active users.
@@ -54,9 +60,17 @@ GPA: 3.59; First Prize Scholarship
 
 ## Competitions and Honors
 
+![](/logos/kaggle.png)
+
 - Bronze Medal, Kaggle LLM Prompt Recovery Competition, 2024.
+
+![](/logos/comap.svg)
+
 - Honorable Mention, Mathematical Contest in Modeling, 2023.
 - Honorable Mention, Mathematical Contest in Modeling, 2022.
+
+![](/logos/hkbu-wordmark.png)
+
 - First Prize Scholarship, Hong Kong Baptist University.
 
 [Download CV PDF](/Zixuan_Wang_CV.pdf)

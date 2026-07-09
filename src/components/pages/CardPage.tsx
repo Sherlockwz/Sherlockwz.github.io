@@ -5,6 +5,21 @@ import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
 import { CardPageConfig } from '@/types/page';
 
+function LogoImage({ src, alt }: { src: string; alt: string }) {
+    return (
+        <span className="relative inline-block h-12 w-full max-w-[280px] my-2">
+            <Image
+                src={src}
+                alt={alt}
+                fill
+                sizes="280px"
+                className="object-contain object-left"
+                unoptimized
+            />
+        </span>
+    );
+}
+
 const markdownComponents = {
     p: ({ children }: React.ComponentProps<'p'>) => <p className="mb-3 last:mb-0">{children}</p>,
     ul: ({ children }: React.ComponentProps<'ul'>) => <ul className="list-disc list-inside mb-3 space-y-1">{children}</ul>,
@@ -30,18 +45,7 @@ const markdownComponents = {
     ),
     img: ({ src, alt }: React.ComponentProps<'img'>) => {
         if (typeof src !== 'string') return null;
-        return (
-            <span className="inline-block my-2">
-                <Image
-                    src={src}
-                    alt={alt || ''}
-                    width={160}
-                    height={160}
-                    className="h-10 w-auto max-w-[160px] object-contain"
-                    unoptimized
-                />
-            </span>
-        );
+        return <LogoImage src={src} alt={alt || ''} />;
     },
 };
 
@@ -74,20 +78,13 @@ export default function CardPage({ config, embedded = false }: { config: CardPag
                     >
                         {item.image && (
                             <div className="mb-3 flex items-center">
-                                <Image
-                                    src={item.image}
-                                    alt={item.title}
-                                    width={160}
-                                    height={56}
-                                    className="h-10 w-auto max-w-[200px] object-contain"
-                                    unoptimized
-                                />
+                                <LogoImage src={item.image} alt={item.title} />
                             </div>
                         )}
-                        <div className="flex justify-between items-start mb-2">
+                        <div className="flex flex-col gap-2 sm:flex-row sm:justify-between sm:items-start mb-2">
                             <h3 className={`${embedded ? "text-lg" : "text-xl"} font-semibold text-primary`}>{item.title}</h3>
                             {item.date && (
-                                <span className="text-sm text-neutral-500 font-medium bg-neutral-100 dark:bg-neutral-800 px-2 py-1 rounded">
+                                <span className="self-start text-sm text-neutral-500 font-medium bg-neutral-100 dark:bg-neutral-800 px-2 py-1 rounded">
                                     {item.date}
                                 </span>
                             )}

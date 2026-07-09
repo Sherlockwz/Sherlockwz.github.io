@@ -46,6 +46,7 @@ tags = ["高效微调", "参数高效学习", "LLM"]
 title = "图神经网络中的不可察觉图注入攻击"
 subtitle = "Under review at DSN"
 date = "2024"
+image = "/logos/hkbu-wordmark.png"
 content = """
 - 研究图神经网络中的隐蔽图注入攻击问题。
 - 提出 UNGIA 方法，通过代表性节点选择与双层优化，在同质性约束和攻击效果之间取得平衡。
@@ -57,6 +58,7 @@ tags = ["图神经网络", "安全", "对抗学习"]
 title = "CNO-former 与混沌神经模型"
 subtitle = "本科阶段代表性研究项目"
 date = "2023 - 2024"
+image = "/logos/hkbu-wordmark.png"
 content = """
 - 提出 CNO-former，将混沌神经振荡机制引入 Transformer 风格的自注意力结构。
 - 探索面向方面级情感分析的混沌神经模型。

@@ -11,6 +11,21 @@ interface TextPageProps {
     embedded?: boolean;
 }
 
+function LogoImage({ src, alt }: { src: string; alt: string }) {
+    return (
+        <span className="relative inline-block h-12 w-full max-w-[280px] my-2">
+            <Image
+                src={src}
+                alt={alt}
+                fill
+                sizes="280px"
+                className="object-contain object-left"
+                unoptimized
+            />
+        </span>
+    );
+}
+
 export default function TextPage({ config, content, embedded = false }: TextPageProps) {
     return (
         <motion.div
@@ -52,18 +67,7 @@ export default function TextPage({ config, content, embedded = false }: TextPage
                         em: ({ children }) => <em className="italic text-neutral-600 dark:text-neutral-500">{children}</em>,
                         img: ({ src, alt }: React.ComponentProps<'img'>) => {
                             if (typeof src !== 'string') return null;
-                            return (
-                                <span className="inline-block my-2">
-                                    <Image
-                                        src={src}
-                                        alt={alt || ''}
-                                        width={160}
-                                        height={160}
-                                        className="h-10 w-auto max-w-[160px] object-contain"
-                                        unoptimized
-                                    />
-                                </span>
-                            );
+                            return <LogoImage src={src} alt={alt || ''} />;
                         },
                     }}
                 >

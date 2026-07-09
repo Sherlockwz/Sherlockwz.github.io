@@ -46,6 +46,7 @@ tags = ["Fine-Tuning", "Parameter-Efficient Learning", "LLMs"]
 title = "Unnoticeable Graph Injection Attack on Graph Neural Networks"
 subtitle = "Under review at DSN"
 date = "2024"
+image = "/logos/hkbu-wordmark.png"
 content = """
 - Investigated stealthy graph injection attacks on graph neural networks.
 - Developed UNGIA, a method that selects representative nodes and uses bi-level optimization to balance homogeneity and attack effectiveness.
@@ -57,6 +58,7 @@ tags = ["Graph Neural Networks", "Security", "Adversarial Learning"]
 title = "CNO-former and Chaos-Based Neural Models"
 subtitle = "Selected undergraduate research projects"
 date = "2023 - 2024"
+image = "/logos/hkbu-wordmark.png"
 content = """
 - Formulated CNO-former, a Transformer-style model that modifies neuron states within self-attention to reduce computational cost and mitigate information loss.
 - Explored chaotic neural oscillation mechanisms for aspect-based sentiment analysis.
