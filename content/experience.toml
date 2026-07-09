@@ -41,11 +41,11 @@ tags = ["Kaggle", "LLM Prompting", "Competition"]
 
 [[items]]
 title = "Mathematical Contest in Modeling"
-subtitle = "Honorable Mention"
+subtitle = "Meritorious Winner & Honorable Mention"
 date = "2022 - 2023"
 image = "/logos/comap.svg"
 content = """
-- Received Honorable Mention in MCM 2023 for modeling New York Times game data and predicting development trends.
+- Named Meritorious Winner in MCM 2023 for modeling New York Times game data and predicting development trends.
 - Received Honorable Mention in MCM 2022 for modeling asset price fluctuations and investment strategy.
 """
 tags = ["MCM", "Mathematical Modeling", "Optimization"]

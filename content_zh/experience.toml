@@ -41,11 +41,11 @@ tags = ["Kaggle", "LLM Prompting", "竞赛"]
 
 [[items]]
 title = "Mathematical Contest in Modeling"
-subtitle = "Honorable Mention"
+subtitle = "Meritorious Winner & Honorable Mention"
 date = "2022 - 2023"
 image = "/logos/comap.svg"
 content = """
-- 2023 年 MCM Honorable Mention：建模分析 New York Times 游戏数据并预测发展趋势。
+- 2023 年 MCM Meritorious Winner：建模分析 New York Times 游戏数据并预测发展趋势。
 - 2022 年 MCM Honorable Mention：围绕资产价格波动、时间序列预测与投资策略建立模型。
 """
 tags = ["MCM", "数学建模", "优化"]

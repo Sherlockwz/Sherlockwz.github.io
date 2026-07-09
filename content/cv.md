@@ -15,14 +15,14 @@ GPA: 4.00
 BSc(Hons) in Data Science, *2021-09 - 2025-06*  
 GPA: 3.59; First Prize Scholarship
 
-## Preprints and Under Review
+## Publications and Under Review
 
-- **BizCompass: Benchmarking the Reasoning Capabilities of LLMs in Business Knowledge and Applications** (ACL 2026 conference submission).
+- **BizCompass: Benchmarking the Reasoning Capabilities of LLMs in Business Knowledge and Applications** (accepted by ACL).
 - **Unified-MAS: Universally Generating Domain-Specific Nodes for Empowering Automatic Multi-Agent Systems** (ACL ARR 2026 March submission).
 - **TiARA: Time-Accumulated Rank Adaptation for Constant-Cost Fine-Tuning** (ICML 2026 conference submission).
-- **AMA: Adaptive Memory via Multi-Agent Collaboration** (ACL ARR 2026 January submission).
+- **AMA: Adaptive Memory via Multi-Agent Collaboration** (accepted by ACL).
 - **Co-Learning for Multi-Agent Reinforcement Collaborative Framework with Conversational Natural Language Interfaces** (under review at JAAMAS).
-- **Unnoticeable Graph Injection Attack on Graph Neural Networks** (under review at DSN).
+- **Unnoticeable Graph Injection Attack on Graph Neural Networks** (accepted by IJCNN).
 
 ## Research and Work Experience
 
@@ -66,7 +66,7 @@ GPA: 3.59; First Prize Scholarship
 
 ![](/logos/comap.svg)
 
-- Honorable Mention, Mathematical Contest in Modeling, 2023.
+- Meritorious Winner, Mathematical Contest in Modeling, 2023.
 - Honorable Mention, Mathematical Contest in Modeling, 2022.
 
 ![](/logos/hkbu-wordmark.png)

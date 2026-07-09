@@ -1,10 +1,10 @@
 type = "card"
 title = "Research Work"
-description = "Selected ongoing and recent research work. Several manuscripts are currently under review, so the descriptions below are intentionally concise and will be updated as results become public."
+description = "Selected ongoing and recent research work. Some manuscripts are currently under review, so the descriptions below are intentionally concise and will be updated as results become public."
 
 [[items]]
 title = "BizCompass: LLM Reasoning in Business Knowledge and Applications"
-subtitle = "ACL 2026 conference submission"
+subtitle = "Accepted by ACL"
 date = "2026"
 content = """
 - Constructed a benchmark for evaluating the reasoning capabilities of large language models on business knowledge and application tasks.
@@ -24,7 +24,7 @@ tags = ["Multi-Agent Systems", "Automatic Generation", "LLM Agents"]
 
 [[items]]
 title = "AMA: Adaptive Memory via Multi-Agent Collaboration"
-subtitle = "ACL ARR 2026 January submission"
+subtitle = "Accepted by ACL"
 date = "2026"
 content = """
 - Introduced an adaptive memory framework based on multi-agent collaboration.
@@ -44,7 +44,7 @@ tags = ["Fine-Tuning", "Parameter-Efficient Learning", "LLMs"]
 
 [[items]]
 title = "Unnoticeable Graph Injection Attack on Graph Neural Networks"
-subtitle = "Under review at DSN"
+subtitle = "Accepted by IJCNN"
 date = "2024"
 image = "/logos/hkbu-wordmark.png"
 content = """
