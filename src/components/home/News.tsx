@@ -20,14 +20,16 @@ function escapeRegExp(value: string): string {
 
 function highlightEnglishNews(content: string): string {
     const highlights = [
-        '35,934 Sephora reviews',
-        'AI-assisted marketing workflow',
-        'University of Bristol',
-        'Shopline',
-        '30% CTR',
-        'Saintland Advertising',
-        '50+ KOL collaborations',
-        'Douyin, Bilibili, and Xiaohongshu',
+        'LLM reasoning',
+        'agent memory',
+        'multi-agent systems',
+        'efficient fine-tuning',
+        'PhD applications',
+        'HKUST(GZ)',
+        'Prof. Qin Chengwei',
+        'Hong Kong Baptist University',
+        'Kaggle LLM Prompt Recovery Competition',
+        'Vivo Mobile Communication Co., Ltd.',
     ];
 
     return highlights.reduce((result, phrase) => {

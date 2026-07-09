@@ -1,20 +1,19 @@
 [site]
-title = "Sandy Luo"
-description = "Aspiring Marketing Analyst for digital growth and consumer insights."
+title = "Zixuan Wang"
+description = "MPhil student in Artificial Intelligence at HKUST(GZ), working on large language models, agent memory, and multi-agent systems."
 favicon = "/favicon.svg"
-last_updated = "April 17, 2026"
+last_updated = "July 9, 2026"
 
 [author]
-name = "Yaying (Sandy) Luo"
-title = "Market Research / Advertising & Marketing\nStatus: Seeking Opportunities"
-institution = "University of Bristol"
+name = "Zixuan Wang"
+title = "MPhil in Artificial Intelligence\nPhD Applicant"
+institution = "HKUST(GZ) AI Thrust"
 avatar = "/avatar.png"
 
 [social]
-email = "luoyaying43@gmail.com"
-location = "Guangdong, China"
-github = "https://github.com/Sandy-LYY"
-linkedin = "https://www.linkedin.com/in/雅颖-罗-3b4443404"
+email = "zwang933@connect.hkust-gz.edu.cn"
+location = "Guangzhou, China"
+location_details = ["Hong Kong University of Science and Technology (Guangzhou)"]
 
 [features]
 enable_likes = false
@@ -24,9 +23,9 @@ enable_one_page_mode = false
 enabled = true
 locales = ["zh", "en"]
 default_locale = "en"
-mode = "auto"
+mode = "fixed"
 fixed_locale = "en"
-persist = true
+persist = false
 switcher = true
 
 [i18n.labels]
@@ -46,10 +45,10 @@ target = "experience"
 href = "/experience"
 
 [[navigation]]
-title = "Projects"
+title = "Research Work"
 type = "page"
-target = "projects"
-href = "/projects"
+target = "research"
+href = "/research"
 
 [[navigation]]
 title = "CV"

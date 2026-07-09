@@ -1,12 +1,13 @@
 type = "about"
-title = "Yaying (Sandy) Luo"
+title = "Zixuan Wang"
 
 [profile]
 research_interests = [
-  "Market Research",
-  "Advertising & Marketing",
-  "Data-Driven Growth",
-  "Consumer Insight"
+  "Large Language Models",
+  "Agent Memory",
+  "Multi-Agent Systems",
+  "Efficient Fine-Tuning",
+  "Graph Learning"
 ]
 
 [[sections]]

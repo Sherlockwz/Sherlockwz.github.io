@@ -1,19 +1,18 @@
 [site]
-title = "罗雅颖 Sandy"
-description = "面向市场研究与广告营销岗位的个人主页。"
-last_updated = "2026年4月17日"
+title = "Zixuan Wang"
+description = "香港科技大学（广州）人工智能方向 MPhil 学生，研究大语言模型、Agent Memory 与多智能体系统。"
+last_updated = "2026年7月9日"
 
 [author]
-name = "罗雅颖（Sandy）"
-title = "市场研究 / 广告营销方向\n职位状态：求职中"
-institution = "University of Bristol（布里斯托大学）"
+name = "Zixuan Wang"
+title = "人工智能 MPhil\n博士申请中"
+institution = "香港科技大学（广州）AI Thrust"
 avatar = "/avatar.png"
 
 [social]
-email = "luoyaying43@gmail.com"
-location = "Guangdong, China"
-github = "https://github.com/Sandy-LYY"
-linkedin = "https://www.linkedin.com/in/雅颖-罗-3b4443404"
+email = "zwang933@connect.hkust-gz.edu.cn"
+location = "广州，中国"
+location_details = ["香港科技大学（广州）"]
 
 [[navigation]]
 title = "关于我"
@@ -28,10 +27,10 @@ target = "experience"
 href = "/experience"
 
 [[navigation]]
-title = "项目"
+title = "研究工作"
 type = "page"
-target = "projects"
-href = "/projects"
+target = "research"
+href = "/research"
 
 [[navigation]]
 title = "简历"

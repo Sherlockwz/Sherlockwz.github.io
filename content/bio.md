@@ -1,5 +1,5 @@
-Hi, I'm **Yaying (Sandy) Luo**. I am currently pursuing postgraduate study at the **University of Bristol**, after majoring in Public Relations and Advertising during my undergraduate years, and am now further focusing on **Marketing (Digital)**.
+Hi, I'm **Zixuan Wang**. I am an MPhil student in **Artificial Intelligence** at the **Hong Kong University of Science and Technology (Guangzhou)**, where I work with **Prof. Qin Chengwei** on large language models, agent memory, and multi-agent systems.
 
-I focus on combining marketing execution with data-driven decision making: market and competitor analysis, social content strategy, KOL evaluation, EDM optimisation, and insight translation into campaign briefs.
+My current research interests include LLM reasoning and evaluation, memory mechanisms for agents, automatic multi-agent system construction, efficient fine-tuning, and graph learning/security. Before joining HKUST(GZ), I received my BSc(Hons) in **Data Science** from **Hong Kong Baptist University**.
 
-I am actively seeking internship and graduate opportunities in **marketing analyst**, **market research**, and **digital growth** roles.
+This page is an initial academic homepage for PhD applications and research communication. I will keep updating it as manuscripts, projects, and research directions become clearer.

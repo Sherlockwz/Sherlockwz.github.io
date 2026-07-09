@@ -1,40 +1,39 @@
 type = "card"
 title = "Experience"
-description = "Internships and practical experience aligned with marketing analyst and market research roles."
+description = "Research and industry experience related to large language models, data analysis, and AI systems."
 
 [[items]]
-title = "Marketing Intern, Shopline (YY Inc.)"
-subtitle = "Shenzhen · 2024-06 – 2024-09"
-date = "2024-06 – 2024-09"
-image = "/logos/joyy.png"
+title = "Research Assistant"
+subtitle = "Guangdong Province Key Laboratory of Interdisciplinary Research and Application for Data Science · Zhuhai, China"
+date = "2024-06 - 2024-09"
 content = """
-- Led targeted EDM campaigns for the Australian market through audience segmentation, A/B testing and content-layout optimisation, achieving ~30% CTR.
-- Produced overseas competitor intelligence reports with social listening signals to support go-to-market decisions for cross-border SaaS.
-- Owned end-to-end Douyin content workflow, from scripting and shooting to post-editing and iteration.
-- Co-created brochures, posters and presentation materials for integrated campaigns and offline events.
-- Planned and executed a small-scale Hong Kong salon event with full ownership of venue, guest management, budget and assets.
+- Developed an incremental-learning model architecture based on a Learning to Edit long-term memory mechanism for dynamically updated medical data.
+- Assisted in building LLM agents for medical scenarios, integrating text, image, and structured medical-record data.
+- Designed LangChain workflows for medical agents and supported supervisor-led fine-tuning work.
+- Combined Spark-based preprocessing with privacy-oriented handling for multi-source heterogeneous medical data.
 """
-tags = ["Growth Marketing", "EDM", "Market Research"]
+tags = ["LLM Agents", "Medical AI", "LangChain", "Spark"]
 
 [[items]]
-title = "Account Executive Intern"
-subtitle = "Saintland Advertising · 2023-06 – 2023-09"
-date = "2023-06 – 2023-09"
-image = "/logos/iblue.png"
+title = "Data Analyst Manager"
+subtitle = "Vivo Mobile Communication Co., Ltd. · Shenzhen, China"
+date = "2023-06 - 2023-09"
 content = """
-- Built a KOL evaluation framework using CPM, CPE and funnel indicators to support creator selection, resulting in 50+ effective collaborations.
-- Drafted and optimised social media content for P&G brands (aio, Pantene) across Weibo, WeChat Official Account and enterprise WeChat.
-- Reviewed and improved 30+ influencer deliverables to ensure brand consistency and campaign objective alignment.
-- Converted seasonal trends and audience sentiment into actionable briefs, improving campaign clarity and creative direction.
+- Completed 20+ product analyses, generated 40+ insights and recommendations, and supported 10+ initiatives that cumulatively drove an increase of 110,000 daily active users.
+- Decomposed data targets for new product development and built dashboards accessed more than 800 times by colleagues.
+- Participated in the framework training of the company's data-assistant LLM model and developed a Python-based demo with product and engineering teams.
+- Contributed to SQL-generation and visualization-code evaluation, improving single-table SQL accuracy from around 45% to 62-67%.
 """
-tags = ["KOL Strategy", "Data Analysis", "Brand Campaign"]
+tags = ["Data Analysis", "SQL", "Python", "LLM Product"]
 
 [[items]]
-title = "Social Media Operator"
-subtitle = "Alpha Times Sports · 2022-07 – 2022-08"
-date = "2022-07 – 2022-08"
+title = "Competition and Academic Honors"
+subtitle = "Selected awards"
+date = "2022 - 2024"
 content = """
-- Edited ~20 short videos for Douyin and 3 long videos for Bilibili to promote Canton Tower attractions, with top videos reaching 1,000+ likes.
-- Managed Xiaohongshu content end-to-end (topic selection, copywriting, image editing and publishing), growing single-post likes and saves from single digits to nearly 1,000.
+- Bronze Medal, Kaggle LLM Prompt Recovery Competition, 2024.
+- Honorable Mention, Mathematical Contest in Modeling, 2023.
+- Honorable Mention, Mathematical Contest in Modeling, 2022.
+- First Prize Scholarship, Hong Kong Baptist University.
 """
-tags = ["Social Media", "Content Creation", "Video Editing"]
+tags = ["Kaggle", "MCM", "Scholarship"]

@@ -1,39 +1,62 @@
 ## Education
 
-![](/logos/bristol.png)
+**Hong Kong University of Science and Technology (Guangzhou), AI Thrust**  
+MPhil in Artificial Intelligence, *2025-09 - Present*  
+GPA: 4.00
 
-**University of Bristol**, Marketing (Digital), *2025-09 – 2026-06 (expected)*
+- Working with Prof. Qin Chengwei on large language models, agent memory, and multi-agent systems.
+- Relevant coursework: Advanced Machine Learning, Reinforcement Learning, Natural Language Processing, and Distributed Systems.
 
 ![](/logos/hkbu-wordmark.png)
 
-**Hong Kong Baptist University (HKBU)**, B.A. in Public Relations and Advertising, *2021-09 – 2025-06*
+**Hong Kong Baptist University**  
+BSc(Hons) in Data Science, *2021-09 - 2025-06*  
+GPA: 3.59; First Prize Scholarship
 
-## Experience
+## Preprints and Under Review
 
-![](/logos/joyy.png)
+- **BizCompass: Benchmarking the Reasoning Capabilities of LLMs in Business Knowledge and Applications** (ACL 2026 conference submission).
+- **Unified-MAS: Universally Generating Domain-Specific Nodes for Empowering Automatic Multi-Agent Systems** (ACL ARR 2026 March submission).
+- **TiARA: Time-Accumulated Rank Adaptation for Constant-Cost Fine-Tuning** (ICML 2026 conference submission).
+- **AMA: Adaptive Memory via Multi-Agent Collaboration** (ACL ARR 2026 January submission).
+- **Co-Learning for Multi-Agent Reinforcement Collaborative Framework with Conversational Natural Language Interfaces** (under review at JAAMAS).
+- **Unnoticeable Graph Injection Attack on Graph Neural Networks** (under review at DSN).
 
-**Marketing Intern, Shopline (YY Inc.)**, Shenzhen, *2024-06 – 2024-09*
-- Led targeted EDM campaigns for the Australian market through audience segmentation and A/B testing, achieving ~30% CTR.
-- Produced social listening-based competitor analysis for overseas SaaS players, supporting expansion decisions.
-- Owned Douyin content production from script to publishing iteration.
-- Co-produced campaign assets (brochures, posters and PPT decks) for integrated marketing projects.
+## Research and Work Experience
 
-![](/logos/iblue.png)
+**Research Assistant**, Guangdong Province Key Laboratory of Interdisciplinary Research and Application for Data Science, Zhuhai, China, *2024-06 - 2024-09*
+- Developed a model architecture supporting incremental learning based on the Learning to Edit long-term memory mechanism.
+- Assisted in building LLM agents for medical scenarios, integrating text, image, and structured medical-record data.
+- Used LangChain to design workflows for medical agents and combined Spark for distributed preprocessing and privacy-protection work.
 
-**Account Executive Intern, Saintland Advertising**, Guangzhou, *2023-06 – 2023-09*
-- Built a KOL evaluation framework with CPM, CPE and funnel indicators, supporting 50+ creator collaborations.
-- Drafted and optimised social content for P&G brands across Weibo, WeChat Official Account and enterprise WeChat.
-- Reviewed 30+ influencer deliverables and aligned content quality with campaign goals.
-- Turned seasonal trends and user sentiment into actionable communication briefs.
+**Data Analyst Manager**, Vivo Mobile Communication Co., Ltd., Shenzhen, China, *2023-06 - 2023-09*
+- Completed 20+ analyses, generated 40+ insights and recommendations, and supported 10+ initiatives that cumulatively drove an increase of 110,000 daily active users.
+- Built dashboards accessed more than 800 times by colleagues.
+- Participated in the framework training of the company's data-assistant LLM model and developed a Python-based demo.
+- Helped improve single-table SQL generation accuracy from around 45% to 62-67%.
 
-**Social Media Operator, Alpha Times Sports**, Guangzhou, *2022-07 – 2022-08*
-- Edited around 20 short videos for Douyin and 3 long-form videos for Bilibili promoting Canton Tower attractions, with top videos reaching 1,000+ likes.
-- Managed Xiaohongshu posts end-to-end (topics, copy, visuals), increasing single-post likes and saves from single digits to nearly 1,000.
+## Selected Research Projects
 
-## Skills
+**Research on the Stealthiness of Injection Attacks in Graph Neural Networks**, supervised by Dr. Donglong Chen, *2024-06 - 2024-09*
+- Proposed UNGIA, a stealthy graph injection attack method using clustering techniques to identify representative nodes.
+- Conducted experiments on Cora, Citeseer, and Cora-ML.
 
-- **Data & research:** Excel (pivot tables, VLOOKUP, dashboards), Python (Pandas/Numpy), R, text mining basics.
-- **AI & analytics:** Sentence Transformer, BERTopic, semantic gap analysis, marketing insight reporting.
-- **Content & design:** Figma, Photoshop/Illustrator, video editing for short-form platforms.
-- **Social media:** Experienced with major domestic and international platforms (Douyin, Xiaohongshu, WeChat, etc.).
-- **Languages:** Chinese (native), English (IELTS 6.5).
+**Chaos-Based GNN for Aspect-Based Sentiment Analysis**, collaborative project, *2023-11 - 2024-09*
+- Explored models for polysemy, semantic correlation, and emotion complexity in social-media sentiment analysis.
+
+**CNO-former: Chaotic Neural Oscillation Self-Attention Model**, research project, *2023-09 - 2024-09*
+- Formulated a Transformer-style model based on chaotic neural oscillation and self-attention.
+- Awarded an Excellent Award in the 2nd Computer Science Related Poster Exhibition.
+
+**Advanced Multi-Agent Systems Development**, Guangdong Provincial Special Scientific Research Program, *2023-05 - 2025-02*
+- Worked on a multi-agent teaching community system based on reinforcement learning.
+- Developed a multi-agent tour-guide assistance system for personalized tourism services.
+
+## Competitions and Honors
+
+- Bronze Medal, Kaggle LLM Prompt Recovery Competition, 2024.
+- Honorable Mention, Mathematical Contest in Modeling, 2023.
+- Honorable Mention, Mathematical Contest in Modeling, 2022.
+- First Prize Scholarship, Hong Kong Baptist University.
+
+[Download CV PDF](/Zixuan_Wang_CV.pdf)

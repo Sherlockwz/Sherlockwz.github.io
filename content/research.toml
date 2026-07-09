@@ -1,0 +1,65 @@
+type = "card"
+title = "Research Work"
+description = "Selected ongoing and recent research work. Several manuscripts are currently under review, so the descriptions below are intentionally concise and will be updated as results become public."
+
+[[items]]
+title = "BizCompass: LLM Reasoning in Business Knowledge and Applications"
+subtitle = "ACL 2026 conference submission"
+date = "2026"
+content = """
+- Constructed a benchmark for evaluating the reasoning capabilities of large language models on business knowledge and application tasks.
+- Analyzed model behavior across tasks and identified potential directions for improving business-domain reasoning.
+"""
+tags = ["LLM Evaluation", "Benchmark", "Reasoning"]
+
+[[items]]
+title = "Unified-MAS: Automatic Domain-Specific Node Generation for Multi-Agent Systems"
+subtitle = "ACL ARR 2026 March submission"
+date = "2026"
+content = """
+- Proposed a unified approach for automatically generating domain-specific nodes to empower multi-agent systems.
+- Focused on making multi-agent systems more adaptable across tasks and domains.
+"""
+tags = ["Multi-Agent Systems", "Automatic Generation", "LLM Agents"]
+
+[[items]]
+title = "AMA: Adaptive Memory via Multi-Agent Collaboration"
+subtitle = "ACL ARR 2026 January submission"
+date = "2026"
+content = """
+- Introduced an adaptive memory framework based on multi-agent collaboration.
+- Explored how collaborative agents can improve memory retrieval and utilization in large language models.
+"""
+tags = ["Agent Memory", "Multi-Agent Collaboration", "LLMs"]
+
+[[items]]
+title = "TiARA: Time-Accumulated Rank Adaptation for Constant-Cost Fine-Tuning"
+subtitle = "ICML 2026 conference submission"
+date = "2026"
+content = """
+- Developed a time-accumulated rank adaptation technique for constant-cost fine-tuning.
+- Aimed to reduce computational requirements while maintaining model performance.
+"""
+tags = ["Fine-Tuning", "Parameter-Efficient Learning", "LLMs"]
+
+[[items]]
+title = "Unnoticeable Graph Injection Attack on Graph Neural Networks"
+subtitle = "Under review at DSN"
+date = "2024"
+content = """
+- Investigated stealthy graph injection attacks on graph neural networks.
+- Developed UNGIA, a method that selects representative nodes and uses bi-level optimization to balance homogeneity and attack effectiveness.
+- Conducted experiments on Cora, Citeseer, and Cora-ML benchmark datasets.
+"""
+tags = ["Graph Neural Networks", "Security", "Adversarial Learning"]
+
+[[items]]
+title = "CNO-former and Chaos-Based Neural Models"
+subtitle = "Selected undergraduate research projects"
+date = "2023 - 2024"
+content = """
+- Formulated CNO-former, a Transformer-style model that modifies neuron states within self-attention to reduce computational cost and mitigate information loss.
+- Explored chaotic neural oscillation mechanisms for aspect-based sentiment analysis.
+- Awarded an Excellent Award in the 2nd Computer Science Related Poster Exhibition.
+"""
+tags = ["Transformer", "Self-Attention", "Sentiment Analysis"]

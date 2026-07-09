@@ -1,0 +1,65 @@
+type = "card"
+title = "研究工作"
+description = "近期和正在进行的代表性研究工作。部分稿件仍在投稿或评审阶段，因此这里先保留相对克制的描述，后续会随着结果公开继续更新。"
+
+[[items]]
+title = "BizCompass：商业知识与应用场景中的 LLM 推理能力评测"
+subtitle = "ACL 2026 conference submission"
+date = "2026"
+content = """
+- 构建面向商业知识与应用任务的大语言模型推理能力评测基准。
+- 分析不同模型在任务中的表现，并总结商业领域推理能力的改进方向。
+"""
+tags = ["LLM 评测", "Benchmark", "推理能力"]
+
+[[items]]
+title = "Unified-MAS：面向自动多智能体系统的领域特定节点生成"
+subtitle = "ACL ARR 2026 March submission"
+date = "2026"
+content = """
+- 提出统一方法，用于自动生成领域特定节点，以增强多智能体系统能力。
+- 关注多智能体系统在不同任务和领域中的适配能力。
+"""
+tags = ["多智能体系统", "自动生成", "LLM Agent"]
+
+[[items]]
+title = "AMA：基于多智能体协作的自适应记忆"
+subtitle = "ACL ARR 2026 January submission"
+date = "2026"
+content = """
+- 提出基于多智能体协作的自适应记忆框架。
+- 探索协作式 Agent 如何提升大语言模型中的记忆检索和使用效率。
+"""
+tags = ["Agent Memory", "多智能体协作", "大语言模型"]
+
+[[items]]
+title = "TiARA：面向恒定成本微调的时间累积秩适应"
+subtitle = "ICML 2026 conference submission"
+date = "2026"
+content = """
+- 提出 time-accumulated rank adaptation 方法，用于恒定成本微调。
+- 目标是在降低计算需求的同时尽量保持模型性能。
+"""
+tags = ["高效微调", "参数高效学习", "LLM"]
+
+[[items]]
+title = "图神经网络中的不可察觉图注入攻击"
+subtitle = "Under review at DSN"
+date = "2024"
+content = """
+- 研究图神经网络中的隐蔽图注入攻击问题。
+- 提出 UNGIA 方法，通过代表性节点选择与双层优化，在同质性约束和攻击效果之间取得平衡。
+- 在 Cora、Citeseer 和 Cora-ML 等基准数据集上进行实验验证。
+"""
+tags = ["图神经网络", "安全", "对抗学习"]
+
+[[items]]
+title = "CNO-former 与混沌神经模型"
+subtitle = "本科阶段代表性研究项目"
+date = "2023 - 2024"
+content = """
+- 提出 CNO-former，将混沌神经振荡机制引入 Transformer 风格的自注意力结构。
+- 探索面向方面级情感分析的混沌神经模型。
+- 获得第二届计算机科学相关海报展 Excellent Award。
+"""
+tags = ["Transformer", "自注意力", "情感分析"]
