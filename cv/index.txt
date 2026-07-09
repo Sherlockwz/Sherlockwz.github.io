@@ -1,0 +1,219 @@
+1:"$Sreact.fragment"
+3:I[5783,["461","static/chunks/461-a9a5d7b05a71d978.js","874","static/chunks/874-6cc630662f3664af.js","139","static/chunks/139-2f7e8a8730169ff1.js","177","static/chunks/app/layout-cc11267278e5d573.js"],"ThemeProvider"]
+4:I[310,["461","static/chunks/461-a9a5d7b05a71d978.js","874","static/chunks/874-6cc630662f3664af.js","139","static/chunks/139-2f7e8a8730169ff1.js","177","static/chunks/app/layout-cc11267278e5d573.js"],"LocaleProvider"]
+5:I[7734,["461","static/chunks/461-a9a5d7b05a71d978.js","874","static/chunks/874-6cc630662f3664af.js","139","static/chunks/139-2f7e8a8730169ff1.js","177","static/chunks/app/layout-cc11267278e5d573.js"],"default"]
+6:I[7555,[],""]
+7:I[1295,[],""]
+9:I[9665,[],"MetadataBoundary"]
+b:I[9665,[],"OutletBoundary"]
+e:I[4911,[],"AsyncMetadataOutlet"]
+10:I[9665,[],"ViewportBoundary"]
+12:I[6614,[],""]
+:HL["/_next/static/css/9772e3899233072a.css","style"]
+2:T592,
+    try {
+      const cfg = {"enabled":true,"locales":["zh","en"],"defaultLocale":"en","mode":"fixed","fixedLocale":"en","persist":false,"switcher":true,"labels":{"zh":"中文","en":"English"}};
+      const storageKey = 'locale-storage';
+      const normalize = (value) => typeof value === 'string' ? value.trim().replace('_', '-').toLowerCase() : '';
+      const matchLocale = (candidate) => {
+        const normalized = normalize(candidate);
+        if (!normalized) return null;
+        if (cfg.locales.includes(normalized)) return normalized;
+        const language = normalized.split('-')[0];
+        if (cfg.locales.includes(language)) return language;
+        return null;
+      };
+
+      let resolved = null;
+
+      if (cfg.persist) {
+        resolved = matchLocale(localStorage.getItem(storageKey));
+      }
+
+      if (!resolved) {
+        if (cfg.mode === 'fixed') {
+          resolved = cfg.fixedLocale;
+        } else {
+          resolved = matchLocale(navigator.language);
+        }
+      }
+
+      if (!resolved) {
+        resolved = cfg.defaultLocale;
+      }
+
+      const root = document.documentElement;
+      root.lang = resolved;
+      root.setAttribute('data-locale', resolved);
+
+      if (cfg.persist) {
+        localStorage.setItem(storageKey, resolved);
+      }
+    } catch (e) {
+      const root = document.documentElement;
+      root.lang = 'en';
+      root.setAttribute('data-locale', 'en');
+    }
+  0:{"P":null,"b":"GhlbBGsX7Vruj2gZn7rs4","p":"","c":["","cv",""],"i":false,"f":[[["",{"children":[["slug","cv","d"],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/9772e3899233072a.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.svg","type":"image/svg+xml"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              try {\n                const theme = localStorage.getItem('theme-storage');\n                const parsed = theme ? JSON.parse(theme) : null;\n                const setting = parsed?.state?.theme || 'system';\n                const prefersDark = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;\n                const effective = setting === 'dark' ? 'dark' : (setting === 'light' ? 'light' : (prefersDark ? 'dark' : 'light'));\n                var root = document.documentElement;\n                root.classList.add(effective);\n                root.setAttribute('data-theme', effective);\n              } catch (e) {\n                var root = document.documentElement;\n                root.classList.add('light');\n                root.setAttribute('data-theme', 'light');\n              }\n            "}}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}]]}],["$","body",null,{"className":"font-sans antialiased","children":["$","$L3",null,{"children":["$","$L4",null,{"config":{"enabled":true,"locales":["zh","en"],"defaultLocale":"en","mode":"fixed","fixedLocale":"en","persist":false,"switcher":true,"labels":{"zh":"中文","en":"English"}},"children":[["$","$L5",null,{"items":[{"title":"About","type":"page","target":"about","href":"/"},{"title":"Experience","type":"page","target":"experience","href":"/experience"},{"title":"Research Work","type":"page","target":"research","href":"/research"},{"title":"CV","type":"page","target":"cv","href":"/cv"}],"siteTitle":"Zixuan Wang","enableOnePageMode":false,"i18n":"$0:f:0:1:1:props:children:1:props:children:1:props:children:props:children:props:config","itemsByLocale":{"zh":[{"title":"关于我","type":"page","target":"about","href":"/"},{"title":"实习与经历","type":"page","target":"experience","href":"/experience"},{"title":"研究工作","type":"page","target":"research","href":"/research"},{"title":"简历","type":"page","target":"cv","href":"/cv"}],"en":[{"title":"About","type":"page","target":"about","href":"/"},{"title":"Experience","type":"page","target":"experience","href":"/experience"},{"title":"Research Work","type":"page","target":"research","href":"/research"},{"title":"CV","type":"page","target":"cv","href":"/cv"}]},"siteTitleByLocale":{"zh":"Zixuan Wang","en":"Zixuan Wang"}}],["$","main",null,{"className":"min-h-screen pt-16 lg:pt-20","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]]}]]}],{"children":[["slug","cv","d"],["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L8",["$","$L9",null,{"children":"$La"}],null,["$","$Lb",null,{"children":["$Lc","$Ld",["$","$Le",null,{"promise":"$@f"}]]}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","3wn_48ykY7l6cDRtaqMLS",{"children":[["$","$L10",null,{"children":"$L11"}],null]}],null]}],false]],"m":"$undefined","G":["$12","$undefined"],"s":false,"S":true}
+13:"$Sreact.suspense"
+14:I[4911,[],"AsyncMetadata"]
+16:I[2382,["461","static/chunks/461-a9a5d7b05a71d978.js","178","static/chunks/178-595a94b9af1e67b5.js","748","static/chunks/748-b9bdb65d88768cea.js","182","static/chunks/app/%5Bslug%5D/page-0e052336a2ec342e.js"],"default"]
+a:["$","$13",null,{"fallback":null,"children":["$","$L14",null,{"promise":"$@15"}]}]
+17:Tdd1,## 教育背景
+
+![](/logos/hkust.png)
+
+**香港科技大学（广州）AI Thrust**  
+人工智能 MPhil，*2025-09 - 至今*  
+GPA：4.00
+
+- 在 Qin Chengwei 教授指导下研究大语言模型、Agent Memory 与多智能体系统。
+- 相关课程：Advanced Machine Learning、Reinforcement Learning、Natural Language Processing、Distributed Systems。
+
+![](/logos/hkbu-seal.png)
+
+**香港浸会大学**  
+Data Science BSc(Hons)，*2021-09 - 2025-06*  
+GPA：3.59；First Prize Scholarship
+
+## 论文与在审工作
+
+- **BizCompass: Benchmarking the Reasoning Capabilities of LLMs in Business Knowledge and Applications** (accepted by ACL)。
+- **Unified-MAS: Universally Generating Domain-Specific Nodes for Empowering Automatic Multi-Agent Systems** (ACL ARR 2026 March submission)。
+- **TiARA: Time-Accumulated Rank Adaptation for Constant-Cost Fine-Tuning** (ICML 2026 conference submission)。
+- **AMA: Adaptive Memory via Multi-Agent Collaboration** (accepted by ACL)。
+- **Co-Learning for Multi-Agent Reinforcement Collaborative Framework with Conversational Natural Language Interfaces** (under review at JAAMAS)。
+- **Unnoticeable Graph Injection Attack on Graph Neural Networks** (accepted by IJCNN)。
+
+## 研究与工作经历
+
+![](/logos/irads-lab.png)
+
+**研究助理**，广东省数据科学交叉研究与应用重点实验室，珠海，*2024-06 - 2024-09*
+- 基于 Learning to Edit 长期记忆机制，开发支持增量学习的模型架构。
+- 协助构建医疗场景 LLM Agent，整合文本、图像和结构化病历数据。
+- 使用 LangChain 设计医疗 Agent 工作流，并结合 Spark 进行分布式预处理和隐私保护处理。
+
+![](/logos/vivo.png)
+
+**数据分析经理实习**，维沃移动通信有限公司，深圳，*2023-06 - 2023-09*
+- 完成 20+ 个产品分析，产出 40+ 条洞察与建议，推动 10+ 项方案落地，累计带来 11 万日活增长。
+- 建立数据指标评估方法并搭建看板，被同事访问 800+ 次。
+- 参与公司数据助手 LLM 模型框架训练，开发 Python Demo。
+- 参与 SQL 生成和可视化代码评估，帮助提升单表 SQL 生成准确率。
+
+## 代表性研究项目
+
+**图神经网络注入攻击的隐蔽性研究**，Dr. Donglong Chen 指导，*2024-06 - 2024-09*
+- 提出 UNGIA 隐蔽图注入攻击方法，利用聚类技术识别代表性节点。
+- 在 Cora、Citeseer 和 Cora-ML 等数据集上进行实验验证。
+
+**Chaos-Based GNN for Aspect-Based Sentiment Analysis**，合作项目，*2023-11 - 2024-09*
+- 探索社交媒体方面级情感分析中的一词多义、语义关联和复杂情感建模问题。
+
+**CNO-former: Chaotic Neural Oscillation Self-Attention Model**，研究项目，*2023-09 - 2024-09*
+- 将混沌神经振荡机制与自注意力结构结合，探索降低计算成本和减少信息损失的方法。
+- 获得第二届计算机科学相关海报展 Excellent Award。
+
+**Advanced Multi-Agent Systems Development**，广东省特殊科研计划，*2023-05 - 2025-02*
+- 参与基于强化学习的多智能体教学社区系统。
+- 开发面向个性化旅游服务的多智能体导览辅助系统。
+
+## 竞赛与荣誉
+
+![](/logos/kaggle.png)
+
+- Kaggle LLM Prompt Recovery Competition Bronze Medal，2024。
+
+![](/logos/comap.svg)
+
+- Mathematical Contest in Modeling Meritorious Winner，2023。
+- Mathematical Contest in Modeling Honorable Mention，2022。
+
+![](/logos/hkbu-wordmark.png)
+
+- 香港浸会大学 First Prize Scholarship。
+
+[下载 CV PDF](#cv-unavailable)
+18:Tf6f,## Education
+
+![](/logos/hkust.png)
+
+**Hong Kong University of Science and Technology (Guangzhou), AI Thrust**  
+MPhil in Artificial Intelligence, *2025-09 - Present*  
+GPA: 4.00
+
+- Working with Prof. Qin Chengwei on large language models, agent memory, and multi-agent systems.
+- Relevant coursework: Advanced Machine Learning, Reinforcement Learning, Natural Language Processing, and Distributed Systems.
+
+![](/logos/hkbu-wordmark.png)
+
+**Hong Kong Baptist University**  
+BSc(Hons) in Data Science, *2021-09 - 2025-06*  
+GPA: 3.59; First Prize Scholarship
+
+## Publications and Under Review
+
+- **BizCompass: Benchmarking the Reasoning Capabilities of LLMs in Business Knowledge and Applications** (accepted by ACL).
+- **Unified-MAS: Universally Generating Domain-Specific Nodes for Empowering Automatic Multi-Agent Systems** (ACL ARR 2026 March submission).
+- **TiARA: Time-Accumulated Rank Adaptation for Constant-Cost Fine-Tuning** (ICML 2026 conference submission).
+- **AMA: Adaptive Memory via Multi-Agent Collaboration** (accepted by ACL).
+- **Co-Learning for Multi-Agent Reinforcement Collaborative Framework with Conversational Natural Language Interfaces** (under review at JAAMAS).
+- **Unnoticeable Graph Injection Attack on Graph Neural Networks** (accepted by IJCNN).
+
+## Research and Work Experience
+
+![](/logos/irads-lab.png)
+
+**Research Assistant**, Guangdong Province Key Laboratory of Interdisciplinary Research and Application for Data Science, Zhuhai, China, *2024-06 - 2024-09*
+- Developed a model architecture supporting incremental learning based on the Learning to Edit long-term memory mechanism.
+- Assisted in building LLM agents for medical scenarios, integrating text, image, and structured medical-record data.
+- Used LangChain to design workflows for medical agents and combined Spark for distributed preprocessing and privacy-protection work.
+
+![](/logos/vivo.png)
+
+**Data Analyst Manager**, Vivo Mobile Communication Co., Ltd., Shenzhen, China, *2023-06 - 2023-09*
+- Completed 20+ analyses, generated 40+ insights and recommendations, and supported 10+ initiatives that cumulatively drove an increase of 110,000 daily active users.
+- Built dashboards accessed more than 800 times by colleagues.
+- Participated in the framework training of the company's data-assistant LLM model and developed a Python-based demo.
+- Helped improve single-table SQL generation accuracy from around 45% to 62-67%.
+
+## Selected Research Projects
+
+**Research on the Stealthiness of Injection Attacks in Graph Neural Networks**, supervised by Dr. Donglong Chen, *2024-06 - 2024-09*
+- Proposed UNGIA, a stealthy graph injection attack method using clustering techniques to identify representative nodes.
+- Conducted experiments on Cora, Citeseer, and Cora-ML.
+
+**Chaos-Based GNN for Aspect-Based Sentiment Analysis**, collaborative project, *2023-11 - 2024-09*
+- Explored models for polysemy, semantic correlation, and emotion complexity in social-media sentiment analysis.
+
+**CNO-former: Chaotic Neural Oscillation Self-Attention Model**, research project, *2023-09 - 2024-09*
+- Formulated a Transformer-style model based on chaotic neural oscillation and self-attention.
+- Awarded an Excellent Award in the 2nd Computer Science Related Poster Exhibition.
+
+**Advanced Multi-Agent Systems Development**, Guangdong Provincial Special Scientific Research Program, *2023-05 - 2025-02*
+- Worked on a multi-agent teaching community system based on reinforcement learning.
+- Developed a multi-agent tour-guide assistance system for personalized tourism services.
+
+## Competitions and Honors
+
+![](/logos/kaggle.png)
+
+- Bronze Medal, Kaggle LLM Prompt Recovery Competition, 2024.
+
+![](/logos/comap.svg)
+
+- Meritorious Winner, Mathematical Contest in Modeling, 2023.
+- Honorable Mention, Mathematical Contest in Modeling, 2022.
+
+![](/logos/hkbu-wordmark.png)
+
+- First Prize Scholarship, Hong Kong Baptist University.
+
+[Download CV PDF](#cv-unavailable)
+8:["$","$L16",null,{"dataByLocale":{"zh":{"type":"text","config":{"type":"text","title":"简历","source":"cv.md"},"content":"$17"},"en":{"type":"text","config":{"type":"text","title":"CV","source":"cv.md"},"content":"$18"}},"defaultLocale":"en"}]
+d:null
+11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+c:null
+15:{"metadata":[["$","title","0",{"children":"CV | Zixuan Wang"}],["$","meta","1",{"name":"author","content":"Zixuan Wang"}],["$","meta","2",{"name":"keywords","content":"Zixuan Wang,PhD,Research,HKUST(GZ) AI Thrust"}],["$","meta","3",{"name":"creator","content":"Zixuan Wang"}],["$","meta","4",{"name":"publisher","content":"Zixuan Wang"}],["$","meta","5",{"property":"og:title","content":"Zixuan Wang"}],["$","meta","6",{"property":"og:description","content":"MPhil student in Artificial Intelligence at HKUST(GZ), working on large language models, agent memory, and multi-agent systems."}],["$","meta","7",{"property":"og:site_name","content":"Zixuan Wang's Academic Website"}],["$","meta","8",{"property":"og:locale","content":"en_US"}],["$","meta","9",{"property":"og:type","content":"website"}],["$","meta","10",{"name":"twitter:card","content":"summary"}],["$","meta","11",{"name":"twitter:title","content":"Zixuan Wang"}],["$","meta","12",{"name":"twitter:description","content":"MPhil student in Artificial Intelligence at HKUST(GZ), working on large language models, agent memory, and multi-agent systems."}],["$","link","13",{"rel":"icon","href":"/favicon.svg"}]],"error":null,"digest":"$undefined"}
+f:{"metadata":"$15:metadata","error":null,"digest":"$undefined"}
