@@ -50,14 +50,31 @@ export default function TextPage({ config, content, embedded = false }: TextPage
                         ul: ({ children }) => <ul className="list-disc list-inside mb-4 space-y-1 ml-4">{children}</ul>,
                         ol: ({ children }) => <ol className="list-decimal list-inside mb-4 space-y-1 ml-4">{children}</ol>,
                         li: ({ children }) => <li className="mb-1">{children}</li>,
-                        a: ({ ...props }) => (
-                            <a
-                                {...props}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-accent font-medium transition-all duration-200 rounded hover:bg-accent/10 hover:shadow-sm"
-                            />
-                        ),
+                        a: ({ href, children, ...props }) => {
+                            if (href === '#cv-unavailable') {
+                                return (
+                                    <span
+                                        role="link"
+                                        aria-disabled="true"
+                                        className="inline-flex cursor-not-allowed select-none items-center rounded-md border border-neutral-200 bg-neutral-100 px-3 py-2 text-sm font-medium text-neutral-500 dark:border-neutral-800 dark:bg-neutral-900 dark:text-neutral-600"
+                                    >
+                                        {children}
+                                    </span>
+                                );
+                            }
+
+                            return (
+                                <a
+                                    {...props}
+                                    href={href}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-accent font-medium transition-all duration-200 rounded hover:bg-accent/10 hover:shadow-sm"
+                                >
+                                    {children}
+                                </a>
+                            );
+                        },
                         blockquote: ({ children }) => (
                             <blockquote className="border-l-4 border-accent/50 pl-4 italic my-4 text-neutral-600 dark:text-neutral-500">
                                 {children}

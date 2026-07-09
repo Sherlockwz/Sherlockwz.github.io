@@ -73,4 +73,4 @@ GPA: 3.59; First Prize Scholarship
 
 - First Prize Scholarship, Hong Kong Baptist University.
 
-[Download CV PDF](/Zixuan_Wang_CV.pdf)
+[Download CV PDF](#cv-unavailable)

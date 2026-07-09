@@ -73,4 +73,4 @@ GPA：3.59；First Prize Scholarship
 
 - 香港浸会大学 First Prize Scholarship。
 
-[下载 CV PDF](/Zixuan_Wang_CV.pdf)
+[下载 CV PDF](#cv-unavailable)
