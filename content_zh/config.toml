@@ -1,7 +1,7 @@
 [site]
 title = "Zixuan Wang"
 description = "香港科技大学（广州）人工智能方向 MPhil 学生，研究大语言模型、Agent Memory 与多智能体系统。"
-last_updated = "2026年7月9日"
+last_updated = "2026年7月20日"
 
 [author]
 name = "Zixuan Wang"
@@ -13,6 +13,8 @@ avatar = "/avatar.png"
 email = "zwang933@connect.hkust-gz.edu.cn"
 location = "广州，中国"
 location_details = ["香港科技大学（广州）"]
+google_scholar = "https://scholar.google.co.jp/citations?user=cOmgB1oAAAAJ&hl=en"
+linkedin = "https://www.linkedin.com/in/zixuan-sherlock-wang-1845063a2/"
 
 [[navigation]]
 title = "关于我"
