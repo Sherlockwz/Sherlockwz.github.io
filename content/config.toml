@@ -1,8 +1,8 @@
 [site]
 title = "Zixuan Wang"
-description = "MPhil student in Artificial Intelligence at HKUST(GZ), working on large language models, agent memory, and multi-agent systems."
+description = "Zixuan Wang is an AI MPhil student at HKUST(GZ) studying long-term memory, lifelong learning, multi-agent orchestration, and personalized agents."
 favicon = "/favicon.svg"
-last_updated = "July 20, 2026"
+last_updated = "October 24, 2026"
 
 [author]
 name = "Zixuan Wang"
@@ -14,7 +14,7 @@ avatar = "/avatar.png"
 email = "zwang933@connect.hkust-gz.edu.cn"
 location = "Guangzhou, China"
 location_details = ["Hong Kong University of Science and Technology (Guangzhou)"]
-google_scholar = "https://scholar.google.co.jp/citations?user=cOmgB1oAAAAJ&hl=en"
+google_scholar = "https://scholar.google.com/citations?user=cOmgB1oAAAAJ&hl=en"
 linkedin = "https://www.linkedin.com/in/zixuan-sherlock-wang-1845063a2/"
 
 [features]
@@ -45,6 +45,12 @@ title = "Experience"
 type = "page"
 target = "experience"
 href = "/experience"
+
+[[navigation]]
+title = "Publications"
+type = "page"
+target = "publications"
+href = "/publications"
 
 [[navigation]]
 title = "Research Work"

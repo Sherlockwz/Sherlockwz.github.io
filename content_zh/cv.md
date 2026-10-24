@@ -3,10 +3,10 @@
 ![](/logos/hkust.png)
 
 **香港科技大学（广州）AI Thrust**  
-人工智能 MPhil，*2025-09 - 至今*  
-GPA：4.00
+人工智能 MPhil，*2025-09 - 2027-07（预计）*\
+GPA：4.07/4.3；全额奖学金
 
-- 在 Qin Chengwei 教授指导下研究大语言模型、Agent Memory 与多智能体系统。
+- 在秦成伟教授指导下研究 AI 长期记忆机制、多智能体编排与个性化 Agent。
 - 相关课程：Advanced Machine Learning、Reinforcement Learning、Natural Language Processing、Distributed Systems。
 
 ![](/logos/hkbu-seal.png)
@@ -15,16 +15,19 @@ GPA：4.00
 Data Science BSc(Hons)，*2021-09 - 2025-06*  
 GPA：3.59；First Prize Scholarship
 
-## 论文与在审工作
+## 论文发表
 
-- **BizCompass: Benchmarking the Reasoning Capabilities of LLMs in Business Knowledge and Applications** (accepted by ACL)。
-- **Unified-MAS: Universally Generating Domain-Specific Nodes for Empowering Automatic Multi-Agent Systems** (ACL ARR 2026 March submission)。
-- **TiARA: Time-Accumulated Rank Adaptation for Constant-Cost Fine-Tuning** (ICML 2026 conference submission)。
-- **AMA: Adaptive Memory via Multi-Agent Collaboration** (accepted by ACL)。
-- **Co-Learning for Multi-Agent Reinforcement Collaborative Framework with Conversational Natural Language Interfaces** (under review at JAAMAS)。
-- **Unnoticeable Graph Injection Attack on Graph Neural Networks** (accepted by IJCNN)。
+- **T-Mem: Memory That Anticipates, Not Archives**。EMNLP 2026 主会（已录用）。[论文](https://arxiv.org/abs/2606.15405) · [代码](https://github.com/Sherlockwz/T-Mem)
+- **Unified-MAS: Universally Generating Domain-Specific Nodes for Empowering Automatic Multi-Agent Systems**。EMNLP 2026 主会（已录用）。[论文](https://arxiv.org/abs/2603.21475) · [代码](https://github.com/linhh29/Unified-MAS)
+- **AMA: Adaptive Memory via Multi-Agent Collaboration**。ACL 2026 Findings。[论文](https://aclanthology.org/2026.findings-acl.152/) · [代码](https://github.com/Sherlockwz/AMA)
+- **BizCompass: Benchmarking the Reasoning Capabilities of LLMs in Business Knowledge and Applications**。ACL 2026 Findings。[论文](https://aclanthology.org/2026.findings-acl.1198/)
 
 ## 研究与工作经历
+
+**应用研究算法工程师实习生**，腾讯，*2026-04 - 2026-09*
+- 参与设计关联式长期记忆机制 T-Mem，成果被 EMNLP 2026 主会录用。
+- 搭建记忆检索与 LLM 精排链路，在仅使用提问前历史建库的离线评测中，将精确命中率从 60.3%（38/63）提升至 84.1%（53/63）。
+- 开发标注工具与经质检的话题匹配、记忆误召评测集，支持检索与回复质量优化。
 
 ![](/logos/irads-lab.png)
 
@@ -72,5 +75,3 @@ GPA：3.59；First Prize Scholarship
 ![](/logos/hkbu-wordmark.png)
 
 - 香港浸会大学 First Prize Scholarship。
-
-[下载 CV PDF](#cv-unavailable)

@@ -3,10 +3,10 @@
 ![](/logos/hkust.png)
 
 **Hong Kong University of Science and Technology (Guangzhou), AI Thrust**  
-MPhil in Artificial Intelligence, *2025-09 - Present*  
-GPA: 4.00
+MPhil in Artificial Intelligence, *2025-09 - 2027-07 (expected)*\
+GPA: 4.07/4.3; full scholarship
 
-- Working with Prof. Qin Chengwei on large language models, agent memory, and multi-agent systems.
+- Working with Prof. Chengwei Qin on AI long-term memory, multi-agent orchestration, and personalized agents.
 - Relevant coursework: Advanced Machine Learning, Reinforcement Learning, Natural Language Processing, and Distributed Systems.
 
 ![](/logos/hkbu-wordmark.png)
@@ -15,16 +15,19 @@ GPA: 4.00
 BSc(Hons) in Data Science, *2021-09 - 2025-06*  
 GPA: 3.59; First Prize Scholarship
 
-## Publications and Under Review
+## Publications
 
-- **BizCompass: Benchmarking the Reasoning Capabilities of LLMs in Business Knowledge and Applications** (accepted by ACL).
-- **Unified-MAS: Universally Generating Domain-Specific Nodes for Empowering Automatic Multi-Agent Systems** (ACL ARR 2026 March submission).
-- **TiARA: Time-Accumulated Rank Adaptation for Constant-Cost Fine-Tuning** (ICML 2026 conference submission).
-- **AMA: Adaptive Memory via Multi-Agent Collaboration** (accepted by ACL).
-- **Co-Learning for Multi-Agent Reinforcement Collaborative Framework with Conversational Natural Language Interfaces** (under review at JAAMAS).
-- **Unnoticeable Graph Injection Attack on Graph Neural Networks** (accepted by IJCNN).
+- **T-Mem: Memory That Anticipates, Not Archives**. EMNLP 2026 Main Conference (accepted). [Paper](https://arxiv.org/abs/2606.15405) · [Code](https://github.com/Sherlockwz/T-Mem)
+- **Unified-MAS: Universally Generating Domain-Specific Nodes for Empowering Automatic Multi-Agent Systems**. EMNLP 2026 Main Conference (accepted). [Paper](https://arxiv.org/abs/2603.21475) · [Code](https://github.com/linhh29/Unified-MAS)
+- **AMA: Adaptive Memory via Multi-Agent Collaboration**. Findings of ACL 2026. [Paper](https://aclanthology.org/2026.findings-acl.152/) · [Code](https://github.com/Sherlockwz/AMA)
+- **BizCompass: Benchmarking the Reasoning Capabilities of LLMs in Business Knowledge and Applications**. Findings of ACL 2026. [Paper](https://aclanthology.org/2026.findings-acl.1198/)
 
 ## Research and Work Experience
+
+**Applied Research Algorithm Engineer Intern**, Tencent, *2026-04 - 2026-09*
+- Co-developed T-Mem, an associative long-term memory approach accepted to EMNLP 2026 Main Conference.
+- Built a retrieval and LLM reranking pipeline that improved exact-hit rate from 60.3% (38/63) to 84.1% (53/63) on an offline set using only pre-query history.
+- Built annotation tooling and quality-checked topic-matching and false-recall evaluation sets to guide retrieval and response improvements.
 
 ![](/logos/irads-lab.png)
 
@@ -72,5 +75,3 @@ GPA: 3.59; First Prize Scholarship
 ![](/logos/hkbu-wordmark.png)
 
 - First Prize Scholarship, Hong Kong Baptist University.
-
-[Download CV PDF](#cv-unavailable)

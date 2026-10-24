@@ -1,46 +1,46 @@
 type = "card"
 title = "研究工作"
-description = "近期和正在进行的代表性研究工作。部分稿件仍在投稿或评审阶段，因此这里先保留相对克制的描述，后续会随着结果公开继续更新。"
+description = "长期记忆、多智能体编排与大模型评测方向的代表性工作，以及部分早期研究项目。"
 
 [[items]]
-title = "BizCompass：商业知识与应用场景中的 LLM 推理能力评测"
-subtitle = "Accepted by ACL"
+title = "T-Mem：面向未来需求的长期记忆"
+subtitle = "EMNLP 2026 主会"
 date = "2026"
 content = """
-- 构建面向商业知识与应用任务的大语言模型推理能力评测基准。
-- 分析不同模型在任务中的表现，并总结商业领域推理能力的改进方向。
+- 通过写入时生成的线索，让长期对话记忆同时支持描述性召回与关联性召回。
+- 在腾讯实习期间将这一研究与实际的记忆检索、回复质量评测相结合。
 """
-tags = ["LLM 评测", "Benchmark", "推理能力"]
-
-[[items]]
-title = "Unified-MAS：面向自动多智能体系统的领域特定节点生成"
-subtitle = "ACL ARR 2026 March submission"
-date = "2026"
-content = """
-- 提出统一方法，用于自动生成领域特定节点，以增强多智能体系统能力。
-- 关注多智能体系统在不同任务和领域中的适配能力。
-"""
-tags = ["多智能体系统", "自动生成", "LLM Agent"]
+tags = ["长期记忆", "关联检索", "个性化 Agent"]
 
 [[items]]
 title = "AMA：基于多智能体协作的自适应记忆"
-subtitle = "Accepted by ACL"
+subtitle = "ACL 2026 Findings"
 date = "2026"
 content = """
-- 提出基于多智能体协作的自适应记忆框架。
-- 探索协作式 Agent 如何提升大语言模型中的记忆检索和使用效率。
+- 设计多智能体协作框架，完成多粒度记忆构建、自适应检索、一致性检查与定向更新。
+- 在长期交互基准上进行评估，并相较完整上下文方法降低输入 token 消耗。
 """
-tags = ["Agent Memory", "多智能体协作", "大语言模型"]
+tags = ["智能体记忆", "多智能体协作", "终身学习"]
 
 [[items]]
-title = "TiARA：面向恒定成本微调的时间累积秩适应"
-subtitle = "ICML 2026 conference submission"
+title = "Unified-MAS：面向自动多智能体系统的领域特定节点生成"
+subtitle = "EMNLP 2026 主会"
 date = "2026"
 content = """
-- 提出 time-accumulated rank adaptation 方法，用于恒定成本微调。
-- 目标是在降低计算需求的同时尽量保持模型性能。
+- 利用外部领域知识生成专用节点，并在系统编排前优化瓶颈节点。
+- 在知识密集任务上改善自动多智能体系统的性能与成本权衡。
 """
-tags = ["高效微调", "参数高效学习", "LLM"]
+tags = ["多智能体编排", "节点生成", "LLM Agent"]
+
+[[items]]
+title = "BizCompass：商业知识与应用场景中的 LLM 推理能力评测"
+subtitle = "ACL 2026 Findings"
+date = "2026"
+content = """
+- 参与构建将金融、经济、统计和运营知识与应用层推理任务相连接的评测基准。
+- 分析基础知识能力如何影响真实业务角色中的模型表现。
+"""
+tags = ["LLM 评测", "Benchmark", "推理能力"]
 
 [[items]]
 title = "图神经网络中的不可察觉图注入攻击"

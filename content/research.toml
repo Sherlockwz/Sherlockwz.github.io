@@ -1,46 +1,46 @@
 type = "card"
 title = "Research Work"
-description = "Selected ongoing and recent research work. Some manuscripts are currently under review, so the descriptions below are intentionally concise and will be updated as results become public."
+description = "Selected work on agent memory, multi-agent orchestration, and LLM evaluation, followed by earlier research projects."
 
 [[items]]
-title = "BizCompass: LLM Reasoning in Business Knowledge and Applications"
-subtitle = "Accepted by ACL"
+title = "T-Mem: Memory That Anticipates, Not Archives"
+subtitle = "EMNLP 2026 Main Conference"
 date = "2026"
 content = """
-- Constructed a benchmark for evaluating the reasoning capabilities of large language models on business knowledge and application tasks.
-- Analyzed model behavior across tasks and identified potential directions for improving business-domain reasoning.
+- Developed long-term conversational memory that uses write-time triggers to support both descriptive and associative recall.
+- Connected this research to practical memory retrieval and response-quality evaluation during my Tencent internship.
 """
-tags = ["LLM Evaluation", "Benchmark", "Reasoning"]
-
-[[items]]
-title = "Unified-MAS: Automatic Domain-Specific Node Generation for Multi-Agent Systems"
-subtitle = "ACL ARR 2026 March submission"
-date = "2026"
-content = """
-- Proposed a unified approach for automatically generating domain-specific nodes to empower multi-agent systems.
-- Focused on making multi-agent systems more adaptable across tasks and domains.
-"""
-tags = ["Multi-Agent Systems", "Automatic Generation", "LLM Agents"]
+tags = ["Long-Term Memory", "Associative Retrieval", "Personalized Agents"]
 
 [[items]]
 title = "AMA: Adaptive Memory via Multi-Agent Collaboration"
-subtitle = "Accepted by ACL"
+subtitle = "Findings of ACL 2026"
 date = "2026"
 content = """
-- Introduced an adaptive memory framework based on multi-agent collaboration.
-- Explored how collaborative agents can improve memory retrieval and utilization in large language models.
+- Developed a collaborative agent framework for multi-granularity memory construction, adaptive retrieval, consistency checks, and targeted updates.
+- Evaluated long-context interaction while reducing token use compared with full-context approaches.
 """
-tags = ["Agent Memory", "Multi-Agent Collaboration", "LLMs"]
+tags = ["Agent Memory", "Multi-Agent Collaboration", "Lifelong Learning"]
 
 [[items]]
-title = "TiARA: Time-Accumulated Rank Adaptation for Constant-Cost Fine-Tuning"
-subtitle = "ICML 2026 conference submission"
+title = "Unified-MAS: Domain-Specific Nodes for Automatic Multi-Agent Systems"
+subtitle = "EMNLP 2026 Main Conference"
 date = "2026"
 content = """
-- Developed a time-accumulated rank adaptation technique for constant-cost fine-tuning.
-- Aimed to reduce computational requirements while maintaining model performance.
+- Generated specialized nodes using external domain knowledge and optimized bottleneck nodes before system orchestration.
+- Improved the performance-cost trade-off of automatic multi-agent systems across knowledge-intensive domains.
 """
-tags = ["Fine-Tuning", "Parameter-Efficient Learning", "LLMs"]
+tags = ["Multi-Agent Orchestration", "Node Generation", "LLM Agents"]
+
+[[items]]
+title = "BizCompass: LLM Reasoning in Business Knowledge and Applications"
+subtitle = "Findings of ACL 2026"
+date = "2026"
+content = """
+- Helped build a benchmark connecting business knowledge in finance, economics, statistics, and operations to application-level reasoning tasks.
+- Analyzed how foundational capabilities support performance in practical business roles.
+"""
+tags = ["LLM Evaluation", "Benchmark", "Reasoning"]
 
 [[items]]
 title = "Unnoticeable Graph Injection Attack on Graph Neural Networks"

@@ -1,7 +1,7 @@
 [site]
 title = "Zixuan Wang"
-description = "香港科技大学（广州）人工智能方向 MPhil 学生，研究大语言模型、Agent Memory 与多智能体系统。"
-last_updated = "2026年7月20日"
+description = "汪子轩是香港科技大学（广州）人工智能 MPhil 学生，研究 AI 长期记忆与终身学习、多智能体编排和个性化 Agent。"
+last_updated = "2026年10月24日"
 
 [author]
 name = "Zixuan Wang"
@@ -13,7 +13,7 @@ avatar = "/avatar.png"
 email = "zwang933@connect.hkust-gz.edu.cn"
 location = "广州，中国"
 location_details = ["香港科技大学（广州）"]
-google_scholar = "https://scholar.google.co.jp/citations?user=cOmgB1oAAAAJ&hl=en"
+google_scholar = "https://scholar.google.com/citations?user=cOmgB1oAAAAJ&hl=en"
 linkedin = "https://www.linkedin.com/in/zixuan-sherlock-wang-1845063a2/"
 
 [[navigation]]
@@ -27,6 +27,12 @@ title = "实习与经历"
 type = "page"
 target = "experience"
 href = "/experience"
+
+[[navigation]]
+title = "论文"
+type = "page"
+target = "publications"
+href = "/publications"
 
 [[navigation]]
 title = "研究工作"

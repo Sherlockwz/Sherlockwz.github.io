@@ -85,12 +85,12 @@ export function parseBibTeX(bibtexContent: string, locale?: string): Publication
       url: tags.url,
       code: tags.code,
       abstract: cleanBibTeXString(tags.abstract),
-      description: cleanBibTeXString(tags.description || tags.note),
+      description: cleanBibTeXString((locale?.startsWith('zh') ? tags.description_zh : undefined) || tags.description || tags.note),
       selected,
       preview,
 
       // Store original BibTeX (excluding custom fields)
-      bibtex: reconstructBibTeX(entry, ['selected', 'preview', 'description', 'keywords', 'code']),
+      bibtex: reconstructBibTeX(entry, ['selected', 'preview', 'description', 'description_zh', 'keywords', 'code']),
     };
 
     // Clean up undefined fields

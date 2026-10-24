@@ -3,6 +3,17 @@ title = "Experience"
 description = "Research and industry experience related to large language models, data analysis, and AI systems."
 
 [[items]]
+title = "Applied Research Algorithm Engineer Intern"
+subtitle = "Tencent · China"
+date = "2026-04 - 2026-09"
+content = """
+- Investigated recurring failures in long-term memory recall and helped develop T-Mem, which adds associative retrieval cues so agents can connect past conversations to future needs; the work was accepted to the EMNLP 2026 Main Conference.
+- Built a query-understanding, BM25 retrieval, long-term memory fusion, and LLM reranking pipeline. On 63 offline queries using only pre-query history, exact-hit rate rose from 60.3% (38/63) to 84.1% (53/63); a targeted regression set resolved 33 of 39 failure cases.
+- Developed annotation and evaluation tools, including a quality-checked 200-question topic-matching benchmark and an approximately 500-case false-recall benchmark, to support reproducible iteration on retrieval and response quality.
+"""
+tags = ["Long-Term Memory", "Personalized Agents", "Retrieval", "Evaluation"]
+
+[[items]]
 title = "Research Assistant"
 subtitle = "Guangdong Province Key Laboratory of Interdisciplinary Research and Application for Data Science · Zhuhai, China"
 date = "2024-06 - 2024-09"

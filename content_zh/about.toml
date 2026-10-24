@@ -3,11 +3,9 @@ title = "Zixuan Wang"
 
 [profile]
 research_interests = [
-  "大语言模型",
-  "Agent Memory",
-  "多智能体系统",
-  "高效微调",
-  "图学习"
+  "AI 长期记忆机制与终身学习",
+  "多智能体编排",
+  "个性化 Agent"
 ]
 
 [[sections]]
@@ -15,6 +13,13 @@ id = "about"
 type = "markdown"
 source = "bio.md"
 title = "关于我"
+
+[[sections]]
+id = "publications"
+type = "publications"
+title = "精选论文"
+filter = "selected"
+limit = 4
 
 [[sections]]
 id = "news"

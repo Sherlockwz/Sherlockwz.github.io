@@ -1,5 +1,3 @@
-Hi, I'm **Zixuan Wang**. I am an MPhil student in **Artificial Intelligence** at the **Hong Kong University of Science and Technology (Guangzhou)**, where I work with **Prof. Qin Chengwei** on large language models, agent memory, and multi-agent systems.
+Hi, I'm **Zixuan Wang**, an MPhil student in **Artificial Intelligence** at the **Hong Kong University of Science and Technology (Guangzhou)**, advised by **Prof. Chengwei Qin**. I received my BSc(Hons) in **Data Science** from **Hong Kong Baptist University**.
 
-My current research interests include LLM reasoning and evaluation, memory mechanisms for agents, automatic multi-agent system construction, efficient fine-tuning, and graph learning/security. Before joining HKUST(GZ), I received my BSc(Hons) in **Data Science** from **Hong Kong Baptist University**.
-
-This page is an initial academic homepage for PhD applications and research communication. I will keep updating it as manuscripts, projects, and research directions become clearer.
+My research focuses on **AI long-term memory and lifelong learning**, **multi-agent orchestration**, and **personalized agents**. I study how agents can retain and update useful knowledge over long interactions, retrieve it when a future situation calls for it, and coordinate specialized capabilities to serve individual users. My recent work includes AMA (Findings of ACL 2026), T-Mem and Unified-MAS (EMNLP 2026 Main Conference).
