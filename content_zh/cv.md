@@ -17,12 +17,23 @@ GPA：3.59；First Prize Scholarship
 
 ## 论文发表
 
+### 会议论文
+
 - **T-Mem: Memory That Anticipates, Not Archives**。EMNLP 2026 主会（已录用）。[论文](https://arxiv.org/abs/2606.15405) · [代码](https://github.com/Sherlockwz/T-Mem)
 - **Unified-MAS: Universally Generating Domain-Specific Nodes for Empowering Automatic Multi-Agent Systems**。EMNLP 2026 主会（已录用）。[论文](https://arxiv.org/abs/2603.21475) · [代码](https://github.com/linhh29/Unified-MAS)
 - **AMA: Adaptive Memory via Multi-Agent Collaboration**。ACL 2026 Findings。[论文](https://aclanthology.org/2026.findings-acl.152/) · [代码](https://github.com/Sherlockwz/AMA)
 - **BizCompass: Benchmarking the Reasoning Capabilities of LLMs in Business Knowledge and Applications**。ACL 2026 Findings。[论文](https://aclanthology.org/2026.findings-acl.1198/)
+- **UNGIA: Unnoticeable Injection Attack on Graph Neural Networks**。IJCNN 2026。
+
+### 公开预印本
+
+- **Beyond Corrected Memory: Execution Consistency in Multi-Agent Systems**。arXiv:2610.08101；已投稿 ICLR 2027。[论文](https://arxiv.org/abs/2610.08101)
+- **MAS-Gate: Unlocking Multi-Agent System Lifecycle via Node-Centric Quantification**。arXiv:2610.17613；已投稿 ICLR 2027。[论文](https://arxiv.org/abs/2610.17613)
+- **Degrees of Freedom in Multi-Agent Coordination: Between Centralized and Decentralized Regimes**。arXiv:2610.17751；已投稿 ICLR 2027。[论文](https://arxiv.org/abs/2610.17751)
 
 ## 研究与工作经历
+
+![](/logos/tencent.png)
 
 **应用研究算法工程师实习生**，腾讯，*2026-04 - 2026-09*
 - 参与设计关联式长期记忆机制 T-Mem，成果被 EMNLP 2026 主会录用。

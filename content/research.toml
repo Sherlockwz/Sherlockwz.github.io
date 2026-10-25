@@ -43,9 +43,9 @@ content = """
 tags = ["LLM Evaluation", "Benchmark", "Reasoning"]
 
 [[items]]
-title = "Unnoticeable Graph Injection Attack on Graph Neural Networks"
-subtitle = "Accepted by IJCNN"
-date = "2024"
+title = "UNGIA: Unnoticeable Injection Attack on Graph Neural Networks"
+subtitle = "IJCNN 2026"
+date = "2026"
 image = "/logos/hkbu-wordmark.png"
 content = """
 - Investigated stealthy graph injection attacks on graph neural networks.

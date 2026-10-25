@@ -43,9 +43,9 @@ content = """
 tags = ["LLM 评测", "Benchmark", "推理能力"]
 
 [[items]]
-title = "图神经网络中的不可察觉图注入攻击"
-subtitle = "Accepted by IJCNN"
-date = "2024"
+title = "UNGIA：图神经网络中的不可察觉图注入攻击"
+subtitle = "IJCNN 2026"
+date = "2026"
 image = "/logos/hkbu-wordmark.png"
 content = """
 - 研究图神经网络中的隐蔽图注入攻击问题。

@@ -17,12 +17,23 @@ GPA: 3.59; First Prize Scholarship
 
 ## Publications
 
+### Conference papers
+
 - **T-Mem: Memory That Anticipates, Not Archives**. EMNLP 2026 Main Conference (accepted). [Paper](https://arxiv.org/abs/2606.15405) · [Code](https://github.com/Sherlockwz/T-Mem)
 - **Unified-MAS: Universally Generating Domain-Specific Nodes for Empowering Automatic Multi-Agent Systems**. EMNLP 2026 Main Conference (accepted). [Paper](https://arxiv.org/abs/2603.21475) · [Code](https://github.com/linhh29/Unified-MAS)
 - **AMA: Adaptive Memory via Multi-Agent Collaboration**. Findings of ACL 2026. [Paper](https://aclanthology.org/2026.findings-acl.152/) · [Code](https://github.com/Sherlockwz/AMA)
 - **BizCompass: Benchmarking the Reasoning Capabilities of LLMs in Business Knowledge and Applications**. Findings of ACL 2026. [Paper](https://aclanthology.org/2026.findings-acl.1198/)
+- **UNGIA: Unnoticeable Injection Attack on Graph Neural Networks**. IJCNN 2026.
+
+### Public preprints
+
+- **Beyond Corrected Memory: Execution Consistency in Multi-Agent Systems**. arXiv:2610.08101; submitted to ICLR 2027. [Paper](https://arxiv.org/abs/2610.08101)
+- **MAS-Gate: Unlocking Multi-Agent System Lifecycle via Node-Centric Quantification**. arXiv:2610.17613; submitted to ICLR 2027. [Paper](https://arxiv.org/abs/2610.17613)
+- **Degrees of Freedom in Multi-Agent Coordination: Between Centralized and Decentralized Regimes**. arXiv:2610.17751; submitted to ICLR 2027. [Paper](https://arxiv.org/abs/2610.17751)
 
 ## Research and Work Experience
+
+![](/logos/tencent.png)
 
 **Applied Research Algorithm Engineer Intern**, Tencent, *2026-04 - 2026-09*
 - Co-developed T-Mem, an associative long-term memory approach accepted to EMNLP 2026 Main Conference.

@@ -232,6 +232,7 @@ export default function PublicationsList({ config, publications, embedded = fals
                                     <p className="text-sm font-medium text-neutral-800 dark:text-neutral-600 mb-3">
                                         {pub.journal || pub.conference}
                                         {!(pub.journal || pub.conference)?.includes(String(pub.year)) && ` ${pub.year}`}
+                                        {pub.venue && ` · ${pub.venue}`}
                                     </p>
 
                                     {pub.description && (

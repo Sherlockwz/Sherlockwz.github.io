@@ -6,6 +6,7 @@ description = "Research and industry experience related to large language models
 title = "Applied Research Algorithm Engineer Intern"
 subtitle = "Tencent · China"
 date = "2026-04 - 2026-09"
+image = "/logos/tencent.png"
 content = """
 - Investigated recurring failures in long-term memory recall and helped develop T-Mem, which adds associative retrieval cues so agents can connect past conversations to future needs; the work was accepted to the EMNLP 2026 Main Conference.
 - Built a query-understanding, BM25 retrieval, long-term memory fusion, and LLM reranking pipeline. On 63 offline queries using only pre-query history, exact-hit rate rose from 60.3% (38/63) to 84.1% (53/63); a targeted regression set resolved 33 of 39 failure cases.

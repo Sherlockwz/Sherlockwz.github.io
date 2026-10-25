@@ -1,4 +1,4 @@
 type = "publication"
 title = "Publications"
-description = "Peer-reviewed papers and accepted conference papers."
+description = "Peer-reviewed papers, accepted conference papers, and public arXiv preprints."
 source = "publications.bib"
