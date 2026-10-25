@@ -47,7 +47,7 @@ export function parseBibTeX(bibtexContent: string, locale?: string): Publication
     // Parse authors
     const authors = parseAuthors(tags.author || '', highlightNames).map((author, authorIndex) => ({
       ...author,
-      isCoFirst: tags.co_first === 'true' && authorIndex < 2,
+      isCoFirst: authorIndex < Number(tags.co_first || 0),
     }));
 
     // Parse year and month

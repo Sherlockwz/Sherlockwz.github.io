@@ -71,6 +71,9 @@ export default function PublicationsList({ config, publications, embedded = fals
                         {config.description}
                     </p>
                 )}
+                {publications.some(pub => pub.authors.some(author => author.isCoFirst)) && (
+                    <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-3">* {messages.publications.equalContribution}</p>
+                )}
             </div>
 
             {/* Search and Filter Controls */}
@@ -230,9 +233,6 @@ export default function PublicationsList({ config, publications, embedded = fals
                                             </span>
                                         ))}
                                     </p>
-                                    {pub.authors.some(author => author.isCoFirst) && (
-                                        <p className="text-xs text-neutral-500 dark:text-neutral-400 mb-2">* {messages.publications.equalContribution}</p>
-                                    )}
                                     <p className="text-sm font-medium text-neutral-800 dark:text-neutral-600 mb-3">
                                         {pub.journal || pub.conference}
                                         {!(pub.journal || pub.conference)?.includes(String(pub.year)) && ` ${pub.year}`}

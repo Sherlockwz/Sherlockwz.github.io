@@ -31,6 +31,9 @@ export default function SelectedPublications({ publications, title, enableOnePag
                     {messages.home.viewAll} →
                 </Link>
             </div>
+            {publications.some(pub => pub.authors.some(author => author.isCoFirst)) && (
+                <p className="text-xs text-neutral-500 dark:text-neutral-400 mb-3">* {messages.publications.equalContribution}</p>
+            )}
             <div className="space-y-4">
                 {publications.map((pub, index) => (
                     <motion.div
@@ -61,9 +64,6 @@ export default function SelectedPublications({ publications, title, enableOnePag
                                 </span>
                             ))}
                         </p>
-                        {pub.authors.some(author => author.isCoFirst) && (
-                            <p className="text-xs text-neutral-500 dark:text-neutral-400 mb-1">* {messages.publications.equalContribution}</p>
-                        )}
                         <p className="text-sm text-neutral-600 dark:text-neutral-500 mb-2">
                             {pub.journal || pub.conference}
                             {pub.venue && ` · ${pub.venue}`}
