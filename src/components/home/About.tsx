@@ -40,7 +40,7 @@ export default function About({ content, title }: AboutProps) {
                             />
                         ),
                         blockquote: ({ children }) => (
-                            <blockquote className="border-l-4 border-accent/50 pl-4 italic my-4 text-neutral-600 dark:text-neutral-500">
+                            <blockquote className="my-6 rounded-r-xl border-l-4 border-accent bg-accent/10 px-5 py-4 text-primary shadow-sm dark:bg-accent/15">
                                 {children}
                             </blockquote>
                         ),
