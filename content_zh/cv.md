@@ -6,7 +6,7 @@
 人工智能 MPhil，*2025-09 - 2027-07（预计）*\
 GPA：4.07/4.3；全额奖学金
 
-- 在秦成伟教授指导下研究 AI 长期记忆机制、多智能体编排与个性化 Agent。
+- 在 [秦成伟教授](https://scholar.google.com/citations?user=OwBrmXwAAAAJ&hl=en) 指导下研究 AI 长期记忆机制、多智能体编排与个性化 Agent。
 - 相关课程：Advanced Machine Learning、Reinforcement Learning、Natural Language Processing、Distributed Systems。
 
 ![](/logos/hkbu-seal.png)
@@ -15,20 +15,23 @@ GPA：4.07/4.3；全额奖学金
 Data Science BSc(Hons)，*2021-09 - 2025-06*  
 GPA：3.59；First Prize Scholarship
 
+- 在 [Donglong Chen 教授](https://staff.bnbu.edu.cn/donglongchen/en) 指导下完成以人工智能安全为主题的本科毕业设计，相关成果为 IJCNN 2026 论文 UNGIA。
+- 在 [Raymond Shu Tak Lee 副教授](https://staff.bnbu.edu.cn/raymondshtlee/en) 指导下参加竞赛、开展项目，并由此入门 NLP 与 Agent。
+
 ## 论文发表
 
 ### 会议论文
 
 - **T-Mem: Memory That Anticipates, Not Archives**。EMNLP 2026 主会（已录用）。[论文](https://arxiv.org/abs/2606.15405) · [代码](https://github.com/Sherlockwz/T-Mem)
 - **Unified-MAS: Universally Generating Domain-Specific Nodes for Empowering Automatic Multi-Agent Systems**。EMNLP 2026 主会（已录用）。[论文](https://arxiv.org/abs/2603.21475) · [代码](https://github.com/linhh29/Unified-MAS)
-- **AMA: Adaptive Memory via Multi-Agent Collaboration**。ACL 2026 Findings。[论文](https://aclanthology.org/2026.findings-acl.152/) · [代码](https://github.com/Sherlockwz/AMA)
+- **AMA: Adaptive Memory via Multi-Agent Collaboration**。共同第一作者；ACL 2026 Findings。[论文](https://aclanthology.org/2026.findings-acl.152/) · [代码](https://github.com/Sherlockwz/AMA)
 - **BizCompass: Benchmarking the Reasoning Capabilities of LLMs in Business Knowledge and Applications**。ACL 2026 Findings。[论文](https://aclanthology.org/2026.findings-acl.1198/)
 - **UNGIA: Unnoticeable Injection Attack on Graph Neural Networks**。IJCNN 2026。
 
 ### 公开预印本
 
-- **Beyond Corrected Memory: Execution Consistency in Multi-Agent Systems**。arXiv:2610.08101；已投稿 ICLR 2027。[论文](https://arxiv.org/abs/2610.08101)
-- **MAS-Gate: Unlocking Multi-Agent System Lifecycle via Node-Centric Quantification**。arXiv:2610.17613；已投稿 ICLR 2027。[论文](https://arxiv.org/abs/2610.17613)
+- **Beyond Corrected Memory: Execution Consistency in Multi-Agent Systems**。共同第一作者；arXiv:2610.08101；已投稿 ICLR 2027。[论文](https://arxiv.org/abs/2610.08101)
+- **MAS-Gate: Unlocking Multi-Agent System Lifecycle via Node-Centric Quantification**。共同第一作者；arXiv:2610.17613；已投稿 ICLR 2027。[论文](https://arxiv.org/abs/2610.17613)
 - **Degrees of Freedom in Multi-Agent Coordination: Between Centralized and Decentralized Regimes**。arXiv:2610.17751；已投稿 ICLR 2027。[论文](https://arxiv.org/abs/2610.17751)
 
 ## 研究与工作经历
@@ -57,7 +60,7 @@ GPA：3.59；First Prize Scholarship
 
 ## 代表性研究项目
 
-**图神经网络注入攻击的隐蔽性研究**，Dr. Donglong Chen 指导，*2024-06 - 2024-09*
+**图神经网络注入攻击的隐蔽性研究**，由 [Donglong Chen 教授](https://staff.bnbu.edu.cn/donglongchen/en) 指导的本科毕业设计，*2024-06 - 2024-09*
 - 提出 UNGIA 隐蔽图注入攻击方法，利用聚类技术识别代表性节点。
 - 在 Cora、Citeseer 和 Cora-ML 等数据集上进行实验验证。
 

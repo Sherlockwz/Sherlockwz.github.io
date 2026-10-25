@@ -6,7 +6,7 @@
 MPhil in Artificial Intelligence, *2025-09 - 2027-07 (expected)*\
 GPA: 4.07/4.3; full scholarship
 
-- Working with Prof. Chengwei Qin on AI long-term memory, multi-agent orchestration, and personalized agents.
+- Working with [Prof. Chengwei Qin](https://scholar.google.com/citations?user=OwBrmXwAAAAJ&hl=en) on AI long-term memory, multi-agent orchestration, and personalized agents.
 - Relevant coursework: Advanced Machine Learning, Reinforcement Learning, Natural Language Processing, and Distributed Systems.
 
 ![](/logos/hkbu-wordmark.png)
@@ -15,20 +15,23 @@ GPA: 4.07/4.3; full scholarship
 BSc(Hons) in Data Science, *2021-09 - 2025-06*  
 GPA: 3.59; First Prize Scholarship
 
+- Undergraduate thesis on AI security (UNGIA, IJCNN 2026), supervised by [Prof. Donglong Chen](https://staff.bnbu.edu.cn/donglongchen/en).
+- Competition and project work mentored by [Assoc. Prof. Raymond Shu Tak Lee](https://staff.bnbu.edu.cn/raymondshtlee/en), who introduced me to NLP and agents.
+
 ## Publications
 
 ### Conference papers
 
 - **T-Mem: Memory That Anticipates, Not Archives**. EMNLP 2026 Main Conference (accepted). [Paper](https://arxiv.org/abs/2606.15405) · [Code](https://github.com/Sherlockwz/T-Mem)
 - **Unified-MAS: Universally Generating Domain-Specific Nodes for Empowering Automatic Multi-Agent Systems**. EMNLP 2026 Main Conference (accepted). [Paper](https://arxiv.org/abs/2603.21475) · [Code](https://github.com/linhh29/Unified-MAS)
-- **AMA: Adaptive Memory via Multi-Agent Collaboration**. Findings of ACL 2026. [Paper](https://aclanthology.org/2026.findings-acl.152/) · [Code](https://github.com/Sherlockwz/AMA)
+- **AMA: Adaptive Memory via Multi-Agent Collaboration**. Co-first author; Findings of ACL 2026. [Paper](https://aclanthology.org/2026.findings-acl.152/) · [Code](https://github.com/Sherlockwz/AMA)
 - **BizCompass: Benchmarking the Reasoning Capabilities of LLMs in Business Knowledge and Applications**. Findings of ACL 2026. [Paper](https://aclanthology.org/2026.findings-acl.1198/)
 - **UNGIA: Unnoticeable Injection Attack on Graph Neural Networks**. IJCNN 2026.
 
 ### Public preprints
 
-- **Beyond Corrected Memory: Execution Consistency in Multi-Agent Systems**. arXiv:2610.08101; submitted to ICLR 2027. [Paper](https://arxiv.org/abs/2610.08101)
-- **MAS-Gate: Unlocking Multi-Agent System Lifecycle via Node-Centric Quantification**. arXiv:2610.17613; submitted to ICLR 2027. [Paper](https://arxiv.org/abs/2610.17613)
+- **Beyond Corrected Memory: Execution Consistency in Multi-Agent Systems**. Co-first author; arXiv:2610.08101; submitted to ICLR 2027. [Paper](https://arxiv.org/abs/2610.08101)
+- **MAS-Gate: Unlocking Multi-Agent System Lifecycle via Node-Centric Quantification**. Co-first author; arXiv:2610.17613; submitted to ICLR 2027. [Paper](https://arxiv.org/abs/2610.17613)
 - **Degrees of Freedom in Multi-Agent Coordination: Between Centralized and Decentralized Regimes**. arXiv:2610.17751; submitted to ICLR 2027. [Paper](https://arxiv.org/abs/2610.17751)
 
 ## Research and Work Experience
@@ -57,7 +60,7 @@ GPA: 3.59; First Prize Scholarship
 
 ## Selected Research Projects
 
-**Research on the Stealthiness of Injection Attacks in Graph Neural Networks**, supervised by Dr. Donglong Chen, *2024-06 - 2024-09*
+**Research on the Stealthiness of Injection Attacks in Graph Neural Networks**, undergraduate thesis supervised by [Prof. Donglong Chen](https://staff.bnbu.edu.cn/donglongchen/en), *2024-06 - 2024-09*
 - Proposed UNGIA, a stealthy graph injection attack method using clustering techniques to identify representative nodes.
 - Conducted experiments on Cora, Citeseer, and Cora-ML.
 

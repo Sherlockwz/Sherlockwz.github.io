@@ -53,6 +53,7 @@ export default function SelectedPublications({ publications, title, enableOnePag
                                     <span className={`${author.isHighlighted ? 'font-semibold text-accent' : ''} ${author.isCoAuthor ? `underline underline-offset-4 ${author.isHighlighted ? 'decoration-accent' : 'decoration-neutral-400'}` : ''}`}>
                                         {author.name}
                                     </span>
+                                    {author.isCoFirst && <sup className="ml-0.5 text-accent" aria-label={messages.publications.equalContribution}>*</sup>}
                                     {author.isCorresponding && (
                                         <sup className={`ml-0 ${author.isHighlighted ? 'text-accent' : 'text-neutral-600 dark:text-neutral-500'}`}>†</sup>
                                     )}
@@ -60,6 +61,9 @@ export default function SelectedPublications({ publications, title, enableOnePag
                                 </span>
                             ))}
                         </p>
+                        {pub.authors.some(author => author.isCoFirst) && (
+                            <p className="text-xs text-neutral-500 dark:text-neutral-400 mb-1">* {messages.publications.equalContribution}</p>
+                        )}
                         <p className="text-sm text-neutral-600 dark:text-neutral-500 mb-2">
                             {pub.journal || pub.conference}
                             {pub.venue && ` · ${pub.venue}`}

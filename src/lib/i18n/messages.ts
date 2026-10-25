@@ -42,6 +42,7 @@ export interface LocaleMessages {
     bibtex: string;
     paper: string;
     code: string;
+    equalContribution: string;
   };
   footer: {
     lastUpdated: string;
@@ -93,6 +94,7 @@ const en: LocaleMessages = {
     bibtex: 'BibTeX',
     paper: 'Paper',
     code: 'Code',
+    equalContribution: 'Equal contribution (co-first authors)',
   },
   footer: {
     lastUpdated: 'Last updated',
@@ -144,6 +146,7 @@ const zh: LocaleMessages = {
     bibtex: 'BibTeX',
     paper: '论文',
     code: '代码',
+    equalContribution: '共同第一作者，贡献相同',
   },
   footer: {
     lastUpdated: '最近更新',

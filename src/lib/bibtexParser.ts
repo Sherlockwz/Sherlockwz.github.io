@@ -45,7 +45,10 @@ export function parseBibTeX(bibtexContent: string, locale?: string): Publication
     const tags = entry.entryTags;
 
     // Parse authors
-    const authors = parseAuthors(tags.author || '', highlightNames);
+    const authors = parseAuthors(tags.author || '', highlightNames).map((author, authorIndex) => ({
+      ...author,
+      isCoFirst: tags.co_first === 'true' && authorIndex < 2,
+    }));
 
     // Parse year and month
     const year = parseInt(tags.year) || new Date().getFullYear();
@@ -93,7 +96,7 @@ export function parseBibTeX(bibtexContent: string, locale?: string): Publication
       preview,
 
       // Store original BibTeX (excluding custom fields)
-      bibtex: reconstructBibTeX(entry, ['selected', 'preview', 'description', 'description_zh', 'note_zh', 'keywords', 'code', 'status']),
+      bibtex: reconstructBibTeX(entry, ['selected', 'preview', 'description', 'description_zh', 'note_zh', 'keywords', 'code', 'status', 'co_first']),
     };
 
     // Clean up undefined fields

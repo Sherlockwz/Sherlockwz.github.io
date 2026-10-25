@@ -222,6 +222,7 @@ export default function PublicationsList({ config, publications, embedded = fals
                                                 <span className={`${author.isHighlighted ? 'font-semibold text-accent' : ''} ${author.isCoAuthor ? `underline underline-offset-4 ${author.isHighlighted ? 'decoration-accent' : 'decoration-neutral-400'}` : ''}`}>
                                                     {author.name}
                                                 </span>
+                                                {author.isCoFirst && <sup className="ml-0.5 text-accent" aria-label={messages.publications.equalContribution}>*</sup>}
                                                 {author.isCorresponding && (
                                                     <sup className={`ml-0 ${author.isHighlighted ? 'text-accent' : 'text-neutral-600 dark:text-neutral-400'}`}>†</sup>
                                                 )}
@@ -229,6 +230,9 @@ export default function PublicationsList({ config, publications, embedded = fals
                                             </span>
                                         ))}
                                     </p>
+                                    {pub.authors.some(author => author.isCoFirst) && (
+                                        <p className="text-xs text-neutral-500 dark:text-neutral-400 mb-2">* {messages.publications.equalContribution}</p>
+                                    )}
                                     <p className="text-sm font-medium text-neutral-800 dark:text-neutral-600 mb-3">
                                         {pub.journal || pub.conference}
                                         {!(pub.journal || pub.conference)?.includes(String(pub.year)) && ` ${pub.year}`}
